@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				248,
+				-31
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "mrtest idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				278,
+				-46
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "mrtest singLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				248,
+				-71
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "mrtest singRIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				248,
+				-31
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "mrtest singDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				248,
+				48
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "mrtest singUP",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/mrtest",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "monster",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		0,
+		0
+	],
+	"camera_position": [
+		-480,
+		100
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

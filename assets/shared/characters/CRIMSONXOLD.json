@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				483,
+				762
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				720,
+				920
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				645,
+				911
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				570,
+				821
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				716,
+				789
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "right"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/CRIMSONXOLD",
+	"position": [
+		880,
+		410
+	],
+	"healthicon": "sonicexe",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		85,
+		142
+	],
+	"camera_position": [
+		-510,
+		-194
+	],
+	"sing_duration": 6.29999999999999,
+	"scale": 0.35,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				432,
+				-74
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "renaldo idle"
+		},
+		{
+			"offsets": [
+				425,
+				-72
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "renaldo left"
+		},
+		{
+			"offsets": [
+				358,
+				-101
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "renaldo right"
+		},
+		{
+			"offsets": [
+				452,
+				-74
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "renaldo down"
+		},
+		{
+			"offsets": [
+				426,
+				-86
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "renaldo up"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/renaldo",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "dad",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		-500,
+		110
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

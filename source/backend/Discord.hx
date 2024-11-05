@@ -79,24 +79,30 @@ class DiscordClient
 		isInitialized = true;
 	}
 
-	public static function changePresence(?details:String = 'In the Menus', ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
-	{
-		var startTimestamp:Float = 0;
-		if (hasStartTimestamp) startTimestamp = Date.now().getTime();
-		if (endTimestamp > 0) endTimestamp = startTimestamp + endTimestamp;
-
-		presence.details = details;
-		presence.state = state;
-		presence.largeImageKey = 'icon';
-		presence.largeImageText = "Engine Version: " + states.MainMenuState.psychEngineVersion;
-		presence.smallImageKey = smallImageKey;
-		// Obtained times are in milliseconds so they are divided so Discord can use it
-		presence.startTimestamp = Std.int(startTimestamp / 1000);
-		presence.endTimestamp = Std.int(endTimestamp / 1000);
-		updatePresence();
-
-		//trace('Discord RPC Updated. Arguments: $details, $state, $smallImageKey, $hasStartTimestamp, $endTimestamp');
-	}
+	public static function changePresence(?details:String = '(TitleMenu)', ?state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
+		{
+			var startTimestamp:Float = 0;
+			if (hasStartTimestamp) startTimestamp = Date.now().getTime();
+			if (endTimestamp > 0) endTimestamp = startTimestamp + endTimestamp;
+		
+			presence.details = details;
+			presence.state = state;
+			presence.largeImageKey = 'splaticon';
+			presence.largeImageText = "Engine Version: " + states.MainMenuState.psychEngineVersion;
+			presence.smallImageKey = smallImageKey;
+			// Obtained times are in milliseconds so they are divided so Discord can use it
+			presence.startTimestamp = Std.int(startTimestamp / 1000);
+			presence.endTimestamp = Std.int(endTimestamp / 1000);
+		
+			presence.button1Label = null;
+			presence.button1Url = null;
+			presence.button2Label = null;
+			presence.button2Url = null;
+		
+			updatePresence();
+		
+			//trace('Discord RPC Updated. Arguments: $details, $state, $smallImageKey, $hasStartTimestamp, $endTimestamp');
+		}
 
 	public static function updatePresence()
 		Discord.UpdatePresence(cpp.RawConstPointer.addressOf(presence));

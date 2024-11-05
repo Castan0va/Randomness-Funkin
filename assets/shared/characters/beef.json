@@ -1,0 +1,135 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "beef idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "beef singLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "beef singDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "beef singUP",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "beef singRIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "leftmiss",
+			"fps": 24,
+			"name": "beef leftmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "downmiss",
+			"fps": 24,
+			"name": "beef downmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "upmiss",
+			"fps": 24,
+			"name": "beef upmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "rightmiss",
+			"fps": 24,
+			"name": "beef rightmiss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				367,
+				239
+			],
+			"anim": "hey!",
+			"fps": 24,
+			"name": "beef hey!",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/beef",
+	"position": [
+		0,
+		350
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		410,
+		-170
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

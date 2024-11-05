@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="renaldou.png">
+<SubTexture name="renaldou idle0000" x="1311" y="630" width="368" height="252" frameX="-421" frameY="-396" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou idle0001" x="1311" y="338" width="300" height="292" frameX="-452" frameY="-353" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou idle0002" x="1022" y="417" width="244" height="414" frameX="-487" frameY="-228" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou idle0003" x="0" y="0" width="218" height="438" frameX="-502" frameY="-207" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou idle0004" x="0" y="0" width="218" height="438" frameX="-502" frameY="-207" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singLEFT0000" x="0" y="860" width="296" height="416" frameX="-413" frameY="-233" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singLEFT0001" x="1022" y="0" width="289" height="417" frameX="-339" frameY="-240" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singLEFT0002" x="332" y="438" width="295" height="419" frameX="-345" frameY="-241" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singDOWN0000" x="0" y="438" width="332" height="422" frameX="-449" frameY="-241" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singDOWN0001" x="296" y="860" width="372" height="382" frameX="-434" frameY="-283" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singDOWN0002" x="1311" y="0" width="390" height="338" frameX="-426" frameY="-323" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singUP0000" x="627" y="438" width="391" height="419" frameX="-374" frameY="-198" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singUP0001" x="623" y="0" width="399" height="424" frameX="-396" frameY="-109" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singUP0002" x="218" y="0" width="405" height="427" frameX="-413" frameY="-89" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singRIGHT0000" x="668" y="860" width="199" height="380" frameX="-555" frameY="-245" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singRIGHT0001" x="1075" y="860" width="227" height="378" frameX="-556" frameY="-245" frameWidth="1280" frameHeight="720" />
+<SubTexture name="renaldou singRIGHT0002" x="867" y="860" width="208" height="379" frameX="-567" frameY="-242" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>

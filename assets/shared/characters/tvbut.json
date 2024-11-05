@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				451,
+				-85
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "tvbot idle"
+		},
+		{
+			"offsets": [
+				512,
+				-85
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "tvbot singLEFT"
+		},
+		{
+			"offsets": [
+				440,
+				-90
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "tvbot singDOWN"
+		},
+		{
+			"offsets": [
+				446,
+				-70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "tvbot singUP"
+		},
+		{
+			"offsets": [
+				455,
+				-84
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "tvbot singRIGHT"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/tvbot",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "face",
+	"flip_x": false,
+	"healthbar_colors": [
+		161,
+		161,
+		161
+	],
+	"camera_position": [
+		390,
+		160
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

@@ -17,11 +17,8 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if MODS_ALLOWED 'mods', #end
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
-		'credits',
-		#if !switch 'donate', #end
-		'options'
+		'options',
+		'credits'
 	];
 
 	var magenta:FlxSprite;
@@ -29,6 +26,11 @@ class MainMenuState extends MusicBeatState
 
 	override function create()
 	{
+
+		openfl.Lib.application.window.title = 'Randomness Funkin - Main Menu';
+
+		FlxG.mouse.visible = true;
+
 		#if MODS_ALLOWED
 		Mods.pushGlobalMods();
 		#end
@@ -61,7 +63,6 @@ class MainMenuState extends MusicBeatState
 		magenta.scrollFactor.set(0, yScroll);
 		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
 		magenta.updateHitbox();
-		magenta.screenCenter();
 		magenta.visible = false;
 		magenta.color = 0xFFfd719b;
 		add(magenta);
@@ -71,7 +72,7 @@ class MainMenuState extends MusicBeatState
 
 		for (i in 0...optionShit.length)
 		{
-			var offset:Float = 108 - (Math.max(optionShit.length, 4) - 4) * 80;
+			var offset:Float = 108 - (Math.max(optionShit.length, 4) + 0) * 80;
 			var menuItem:FlxSprite = new FlxSprite(0, (i * 140) + offset);
 			menuItem.antialiasing = ClientPrefs.data.antialiasing;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
@@ -84,7 +85,7 @@ class MainMenuState extends MusicBeatState
 				scr = 0;
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.updateHitbox();
-			menuItem.screenCenter(X);
+			menuItem.scale.set(0.5, 0.5);
 		}
 
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
@@ -111,6 +112,7 @@ class MainMenuState extends MusicBeatState
 		super.create();
 
 		FlxG.camera.follow(camFollow, null, 9);
+
 	}
 
 	var selectedSomethin:Bool = false;
@@ -217,7 +219,6 @@ class MainMenuState extends MusicBeatState
 		FlxG.sound.play(Paths.sound('scrollMenu'));
 		menuItems.members[curSelected].animation.play('idle');
 		menuItems.members[curSelected].updateHitbox();
-		menuItems.members[curSelected].screenCenter(X);
 
 		curSelected += huh;
 
@@ -228,7 +229,6 @@ class MainMenuState extends MusicBeatState
 
 		menuItems.members[curSelected].animation.play('selected');
 		menuItems.members[curSelected].centerOffsets();
-		menuItems.members[curSelected].screenCenter(X);
 
 		camFollow.setPosition(menuItems.members[curSelected].getGraphicMidpoint().x,
 			menuItems.members[curSelected].getGraphicMidpoint().y - (menuItems.length > 4 ? menuItems.length * 8 : 0));

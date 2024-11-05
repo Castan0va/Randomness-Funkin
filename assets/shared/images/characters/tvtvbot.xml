@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tvtvbot.png">
+<SubTexture name="tvtvbot idle0000" x="339" y="1472" width="353" height="440" frameX="-415" frameY="-235" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot idle0001" x="720" y="0" width="348" height="488" frameX="-415" frameY="-184" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot idle0002" x="0" y="0" width="316" height="502" frameX="-411" frameY="-174" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot idle0003" x="0" y="502" width="311" height="487" frameX="-405" frameY="-189" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot idle0004" x="0" y="502" width="311" height="487" frameX="-405" frameY="-189" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singright0000" x="1470" y="0" width="404" height="485" frameX="-283" frameY="-195" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singright0001" x="415" y="989" width="421" height="481" frameX="-263" frameY="-199" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singright0002" x="1173" y="989" width="429" height="480" frameX="-254" frameY="-200" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singdown0000" x="1336" y="1472" width="344" height="368" frameX="-471" frameY="-327" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singdown0001" x="1010" y="1472" width="326" height="386" frameX="-480" frameY="-313" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singdown0002" x="692" y="1472" width="318" height="396" frameX="-482" frameY="-293" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singup0000" x="1874" y="956" width="339" height="461" frameX="-407" frameY="-230" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singup0001" x="1874" y="479" width="339" height="477" frameX="-407" frameY="-215" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singup0002" x="311" y="502" width="339" height="487" frameX="-405" frameY="-203" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singleft0000" x="650" y="502" width="385" height="487" frameX="-444" frameY="-199" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singleft0001" x="316" y="0" width="404" height="489" frameX="-445" frameY="-197" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot singleft0002" x="1068" y="0" width="402" height="487" frameX="-445" frameY="-199" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot missright0000" x="1470" y="485" width="404" height="485" frameX="-283" frameY="-195" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot missright0001" x="0" y="989" width="415" height="483" frameX="-269" frameY="-197" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot missdown0000" x="1680" y="1472" width="344" height="368" frameX="-471" frameY="-327" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot missdown0001" x="2259" y="0" width="345" height="347" frameX="-476" frameY="-348" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot missup0000" x="0" y="1472" width="339" height="461" frameX="-407" frameY="-230" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot missup0001" x="836" y="989" width="337" height="481" frameX="-407" frameY="-210" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot missleft0000" x="1068" y="487" width="385" height="487" frameX="-444" frameY="-199" frameWidth="1280" frameHeight="720" />
+<SubTexture name="tvtvbot missleft0001" x="1874" y="0" width="385" height="479" frameX="-444" frameY="-207" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>

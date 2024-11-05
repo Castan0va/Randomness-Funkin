@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mrtest.png">
+<SubTexture name="mrtest idle0000" x="0" y="1210" width="530" height="139" frameX="-217" frameY="-485" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest idle0001" x="1381" y="902" width="370" height="233" frameX="-313" frameY="-389" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest idle0002" x="880" y="861" width="221" height="329" frameX="-322" frameY="-293" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest idle0003" x="0" y="452" width="179" height="409" frameX="-355" frameY="-211" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest idle0004" x="0" y="452" width="179" height="409" frameX="-355" frameY="-211" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest idle0005" x="179" y="452" width="179" height="389" frameX="-355" frameY="-211" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singLEFT0000" x="1381" y="324" width="291" height="315" frameX="-222" frameY="-246" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singLEFT0001" x="1082" y="349" width="285" height="337" frameX="-197" frameY="-256" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singLEFT0002" x="1082" y="0" width="299" height="349" frameX="-202" frameY="-255" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singDOWN0000" x="1572" y="639" width="205" height="247" frameX="-362" frameY="-359" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singDOWN0001" x="1381" y="639" width="191" height="263" frameX="-369" frameY="-340" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singDOWN0002" x="1672" y="324" width="179" height="273" frameX="-375" frameY="-331" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singUP0000" x="894" y="0" width="188" height="352" frameX="-369" frameY="-184" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singUP0001" x="894" y="0" width="188" height="352" frameX="-365" frameY="-157" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singUP0002" x="894" y="0" width="188" height="352" frameX="-364" frameY="-153" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singRIGHT0000" x="358" y="452" width="433" height="388" frameX="-103" frameY="-190" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singRIGHT0001" x="0" y="861" width="464" height="349" frameX="-92" frameY="-240" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singRIGHT0002" x="464" y="861" width="416" height="349" frameX="-140" frameY="-269" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singRIGHT0003" x="504" y="0" width="390" height="430" frameX="-285" frameY="-263" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singRIGHT0004" x="0" y="0" width="504" height="452" frameX="-367" frameY="-262" frameWidth="1280" frameHeight="720" />
+<SubTexture name="mrtest singRIGHT0005" x="1381" y="0" width="599" height="324" frameX="-455" frameY="-244" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>
