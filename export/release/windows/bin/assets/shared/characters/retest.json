@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				469,
+				-79
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "retest left"
+		},
+		{
+			"offsets": [
+				344,
+				-110
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "retest right"
+		},
+		{
+			"offsets": [
+				353,
+				-98
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "retest down"
+		},
+		{
+			"offsets": [
+				469,
+				-79
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "retest up"
+		},
+		{
+			"offsets": [
+				469,
+				-79
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "retest idle"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/retest",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "tankman",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		-580,
+		180
+	],
+	"sing_duration": 4,
+	"scale": 1.1,
+	"_editor_isPlayer": false
+}

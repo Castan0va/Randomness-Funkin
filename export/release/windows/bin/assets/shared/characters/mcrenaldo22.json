@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				432,
+				-74
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "mcrenaldo idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				432,
+				-95
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "mcrenaldo down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				435,
+				-70
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "mcrenaldo up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				411,
+				-74
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "mcrenaldo right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				469,
+				-102
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "mcrenaldo left",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/mcrenaldo",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "dad",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		510,
+		90
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

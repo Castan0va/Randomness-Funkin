@@ -1,0 +1,14 @@
+flixel/tweens/misc/VarTween.hx (line 82)
+flixel/tweens/misc/VarTween.hx (line 40)
+flixel/tweens/FlxTween.hx (line 1015)
+flixel/tweens/FlxTween.hx (line 229)
+states/FreeplayState.hx (line 285)
+flixel/FlxState.hx (line 239)
+flixel/FlxGame.hx (line 750)
+flixel/FlxGame.hx (line 680)
+flixel/FlxGame.hx (line 559)
+
+Uncaught Error: The object does not have the property "scale" in "scale.x"
+Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine
+
+> Crash Handler written by: sqirra-rng

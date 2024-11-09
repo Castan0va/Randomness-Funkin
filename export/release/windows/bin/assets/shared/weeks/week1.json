@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["boom critical", "face", [165, 0, 77]]
+		["cave rave", "face", [165, 0, 77]]
+		["webtastic", "face", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "renaldo900gamer",
+	"weekBefore": "tutoriall",
+	"weekName": "week1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

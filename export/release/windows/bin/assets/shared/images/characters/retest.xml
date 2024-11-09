@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="retest.png">
+<SubTexture name="retest idle0000" x="610" y="856" width="194" height="361" frameX="-581" frameY="-245" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest idle0001" x="415" y="856" width="195" height="363" frameX="-576" frameY="-243" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest idle0002" x="0" y="856" width="197" height="372" frameX="-556" frameY="-231" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest idle0003" x="427" y="476" width="205" height="377" frameX="-551" frameY="-230" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest idle0004" x="0" y="476" width="213" height="380" frameX="-543" frameY="-227" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest idle0005" x="213" y="476" width="214" height="380" frameX="-545" frameY="-227" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest left0000" x="1013" y="0" width="231" height="374" frameX="-443" frameY="-235" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest left0001" x="1013" y="374" width="228" height="374" frameX="-446" frameY="-235" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest left0002" x="197" y="856" width="218" height="369" frameX="-457" frameY="-240" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest left0003" x="632" y="476" width="241" height="376" frameX="-475" frameY="-233" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest up0000" x="0" y="0" width="251" height="476" frameX="-516" frameY="-128" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest up0001" x="251" y="0" width="253" height="458" frameX="-516" frameY="-145" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest up0002" x="504" y="0" width="255" height="450" frameX="-514" frameY="-156" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest up0003" x="759" y="0" width="254" height="447" frameX="-515" frameY="-158" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest down0000" x="1244" y="917" width="296" height="272" frameX="-493" frameY="-313" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest down0001" x="1244" y="630" width="295" height="287" frameX="-494" frameY="-299" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest down0002" x="1244" y="332" width="287" height="298" frameX="-497" frameY="-289" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest down0003" x="1244" y="332" width="287" height="298" frameX="-497" frameY="-289" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest right0000" x="400" y="1228" width="407" height="329" frameX="-521" frameY="-256" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest right0001" x="0" y="1228" width="400" height="330" frameX="-521" frameY="-255" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest right0002" x="804" y="856" width="391" height="332" frameX="-521" frameY="-253" frameWidth="1280" frameHeight="720" />
+<SubTexture name="retest right0003" x="1244" y="0" width="390" height="332" frameX="-521" frameY="-253" frameWidth="1280" frameHeight="720" />
+</TextureAtlas>

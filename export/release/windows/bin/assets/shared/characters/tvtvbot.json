@@ -1,0 +1,212 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				448,
+				264
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "tvtvbot idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				514,
+				271
+			],
+			"anim": "singleft",
+			"fps": 24,
+			"name": "tvtvbot singleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				448,
+				258
+			],
+			"anim": "singdown",
+			"fps": 24,
+			"name": "tvtvbot singdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				273
+			],
+			"anim": "singup",
+			"fps": 24,
+			"name": "tvtvbot singup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				475,
+				250
+			],
+			"anim": "singright",
+			"fps": 24,
+			"name": "tvtvbot singright",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				514,
+				271
+			],
+			"anim": "missleft",
+			"fps": 24,
+			"name": "tvtvbot missleft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				448,
+				258
+			],
+			"anim": "missup",
+			"fps": 24,
+			"name": "tvtvbot missup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				431,
+				273
+			],
+			"anim": "missdown",
+			"fps": 24,
+			"name": "tvtvbot missdown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				475,
+				250
+			],
+			"anim": "missright",
+			"fps": 24,
+			"name": "tvtvbot missright",
+			"indices": []
+		},
+		{
+			"offsets": [
+				514,
+				271
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "tvtvbot singleft"
+		},
+		{
+			"offsets": [
+				448,
+				258
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "tvtvbot singdown"
+		},
+		{
+			"offsets": [
+				431,
+				273
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "tvtvbot singup"
+		},
+		{
+			"offsets": [
+				475,
+				250
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "tvtvbot singright"
+		},
+		{
+			"offsets": [
+				475,
+				250
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "missRIGHT",
+			"loop": false,
+			"name": "tvtvbot missright"
+		},
+		{
+			"offsets": [
+				448,
+				258
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "missDOWN",
+			"loop": false,
+			"name": "tvtvbot missdown"
+		},
+		{
+			"offsets": [
+				448,
+				258
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "missUP",
+			"loop": false,
+			"name": "tvtvbot missup"
+		},
+		{
+			"offsets": [
+				514,
+				271
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "missLEFT",
+			"loop": false,
+			"name": "tvtvbot missleft"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/tvtvbot",
+	"position": [
+		0,
+		360
+	],
+	"healthicon": "bfv   ",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		100,
+		0
+	],
+	"camera_position": [
+		370,
+		-170
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

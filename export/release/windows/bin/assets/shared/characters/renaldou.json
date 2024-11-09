@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				453,
+				-72
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "renaldou idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				381,
+				-84
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "renaldou singLEFT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				531,
+				-73
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "renaldou singRIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				453,
+				-91
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "renaldou singDOWN",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				448,
+				-32
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "renaldou singUP",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/renaldou",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "mom",
+	"flip_x": false,
+	"healthbar_colors": [
+		216,
+		85,
+		142
+	],
+	"camera_position": [
+		540,
+		70
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

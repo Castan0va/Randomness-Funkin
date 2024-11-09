@@ -1,0 +1,31 @@
+{
+	"songs": [
+		["among us be like", "face", [165, 0, 77]]
+		["bomb survival", "face", [165, 0, 77]]
+		["applebees", "face", [165, 0, 77]]
+		["ambiaunce", "face", [165, 0, 77]]
+		["fefe", "face", [165, 0, 77]]
+		["harhar", "face", [165, 0, 77]]
+		["dunner", "face", [165, 0, 77]]
+		["simple minded", "face", [165, 0, 77]]
+		["gamebreaker renaldo", "face", [165, 0, 77]]
+		["charismatic", "face", [165, 0, 77]]
+		["12webz", "face", [165, 0, 77]]
+		["sonic exe vs renaldo", "face", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "Devs",
+	"weekBefore": "week6",
+	"weekName": "week7",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

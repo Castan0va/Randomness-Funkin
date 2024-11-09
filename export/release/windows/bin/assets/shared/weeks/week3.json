@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["randomness", "face", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "randomness",
+	"weekBefore": "week2",
+	"weekName": "week3",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
