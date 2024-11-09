@@ -266,6 +266,8 @@ class PlayState extends MusicBeatState
 
 	override public function create()
 	{
+		openfl.Lib.application.window.title = 'Randomness Funkin';
+
 		//trace('Playback Rate: ' + playbackRate);
 		Paths.clearStoredMemory();
 

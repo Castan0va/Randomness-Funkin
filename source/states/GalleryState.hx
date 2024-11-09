@@ -2,7 +2,7 @@ package states;
 
 import objects.AttachedSprite;
 
-class CreditsState extends MusicBeatState
+class GalleryState extends MusicBeatState
 {
 	var curSelected:Int = -1;
 
@@ -20,7 +20,7 @@ class CreditsState extends MusicBeatState
 
 	override function create()
 	{
-		openfl.Lib.application.window.title = 'Randomness Funkin - Credits';
+		openfl.Lib.application.window.title = 'Randomness Funkin - Gallery';
 
 		#if DISCORD_ALLOWED
 		// Updating Discord Rich Presence

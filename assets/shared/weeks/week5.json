@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["afe", "face", [165, 0, 77]]
+		["newtron", "face", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "mariner",
+	"weekBefore": "week4",
+	"weekName": "week5",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

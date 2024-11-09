@@ -70,6 +70,9 @@ class TitleState extends MusicBeatState
 
 	override public function create():Void
 	{
+
+		openfl.Lib.application.window.title = 'Randomness Funkin';
+
 		Paths.clearStoredMemory();
 
 		#if LUA_ALLOWED

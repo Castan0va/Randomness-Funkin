@@ -29,6 +29,12 @@ class FreeplayState extends MusicBeatState
 	var lerpRating:Float = 0;
 	var intendedScore:Int = 0;
 	var intendedRating:Float = 0;
+	var checker:FlxSprite;
+	var underlay:FlxSprite;
+	var overlay:FlxSprite;
+	var arrowup:FlxSprite;
+	var arrowdown:FlxSprite;
+	var scoreBox:FlxSprite;
 
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
@@ -50,6 +56,8 @@ class FreeplayState extends MusicBeatState
 
 	override function create()
 	{
+		openfl.Lib.application.window.title = 'Randomness Funkin - Freeplay';
+
 		//Paths.clearStoredMemory();
 		//Paths.clearUnusedMemory();
 		
@@ -88,17 +96,45 @@ class FreeplayState extends MusicBeatState
 		}
 		Mods.loadTopMod();
 
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(Paths.image('bgfreeplay'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);
 		bg.screenCenter();
+
+		var checker:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('underlaything2'));
+		checker.antialiasing = ClientPrefs.data.antialiasing;
+		checker.alpha = 0.2;
+		checker.setGraphicSize((1280 * 1.175), (720 * 1.175));
+		checker.scrollFactor.set(0, 0);
+		add(checker);
+
+		FlxTween.tween(checker, { x: -49.35, y: -49.35}, 1, { type: FlxTween.LOOPING, ease: FlxEase.linear, startDelay: 0, loopDelay: 0 });
+
+		scoreBox = new FlxSprite(900, 150).makeGraphic(320, 460, 0xFF000000);
+		scoreBox.alpha = 0.5;
+		scoreBox.scrollFactor.set(0, 0);
+		add(scoreBox);
+
+		var underlay:FlxSprite = new FlxSprite(-10,0).loadGraphic(Paths.image('underlayfreeplay'));
+		underlay.antialiasing = ClientPrefs.data.antialiasing;
+		underlay.alpha = 0.6;
+		underlay.setGraphicSize((1280 * 1.2), (720 * 1.2));
+		underlay.scrollFactor.set(0, 0);
+		add(underlay);
+
+		var overlay:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('borderfreeplay'));
+		overlay.antialiasing = ClientPrefs.data.antialiasing;
+		overlay.scrollFactor.set(0, 0);
+		overlay.setGraphicSize(1280, 720);
+		add(overlay);
 
 		grpSongs = new FlxTypedGroup<Alphabet>();
 		add(grpSongs);
 
 		for (i in 0...songs.length)
 		{
-			var songText:Alphabet = new Alphabet(90, 320, songs[i].songName, true);
+			var songText:Alphabet = new Alphabet(640, 320, songs[i].songName, true);
+			songText.alignment = CENTERED;
 			songText.targetY = i;
 			grpSongs.add(songText);
 
@@ -124,15 +160,29 @@ class FreeplayState extends MusicBeatState
 		}
 		WeekData.setDirectoryFromWeek();
 
-		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
-		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
+		scoreText = new FlxText(700, 180, 320, "", 32);
+		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
+
+		var arrowup:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('arrowup'));
+		arrowup.antialiasing = ClientPrefs.data.antialiasing;
+		arrowup.scrollFactor.set(0, 0);
+		arrowup.scale.set(0.5, 0.5);
+		arrowup.screenCenter(X);
+		add(arrowup);
+
+		var arrowdown:FlxSprite = new FlxSprite(0, 560).loadGraphic(Paths.image('arrowdown'));
+		arrowdown.antialiasing = ClientPrefs.data.antialiasing;
+		arrowdown.scrollFactor.set(0, 0);
+		arrowdown.scale.set(0.5, 0.5);
+		arrowdown.screenCenter(X);
+		add(arrowdown);
 
 		scoreBG = new FlxSprite(scoreText.x - 6, 0).makeGraphic(1, 66, 0xFF000000);
-		scoreBG.alpha = 0.6;
+		scoreBG.alpha = 0;
 		add(scoreBG);
 
-		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
-		diffText.font = scoreText.font;
+		diffText = new FlxText(990, scoreText.y + 65, 0, "", 24);
+		diffText.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER);
 		add(diffText);
 
 		add(scoreText);
@@ -150,8 +200,6 @@ class FreeplayState extends MusicBeatState
 		add(missingText);
 
 		if(curSelected >= songs.length) curSelected = 0;
-		bg.color = songs[curSelected].color;
-		intendedColor = bg.color;
 		lerpSelected = curSelected;
 
 		curDifficulty = Math.round(Math.max(0, Difficulty.defaultList.indexOf(lastDifficultyName)));
@@ -197,6 +245,8 @@ class FreeplayState extends MusicBeatState
 	var holdTime:Float = 0;
 	override function update(elapsed:Float)
 	{
+		scoreText.x = scoreBox.x;
+
 		if (FlxG.sound.music.volume < 0.7)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -223,7 +273,7 @@ class FreeplayState extends MusicBeatState
 
 		if (!player.playingMusic)
 		{
-			scoreText.text = 'PERSONAL BEST: ' + lerpScore + ' (' + ratingSplit.join('.') + '%)';
+			scoreText.text = 'HIGHSCORE: ' + lerpScore + ' (' + ratingSplit.join('.') + '%)';
 			positionHighscore();
 			
 			if(songs.length > 1)
@@ -413,6 +463,7 @@ class FreeplayState extends MusicBeatState
 
 		updateTexts(elapsed);
 		super.update(elapsed);
+		diffText.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER);
 	}
 
 	public static function destroyFreeplayVocals() {
@@ -468,17 +519,6 @@ class FreeplayState extends MusicBeatState
 			curSelected = 0;
 			
 		var newColor:Int = songs[curSelected].color;
-		if(newColor != intendedColor) {
-			if(colorTween != null) {
-				colorTween.cancel();
-			}
-			intendedColor = newColor;
-			colorTween = FlxTween.color(bg, 1, bg.color, intendedColor, {
-				onComplete: function(twn:FlxTween) {
-					colorTween = null;
-				}
-			});
-		}
 
 		// selector.y = (70 * curSelected) + 30;
 
@@ -486,10 +526,10 @@ class FreeplayState extends MusicBeatState
 
 		for (i in 0...iconArray.length)
 		{
-			iconArray[i].alpha = 0.6;
+			iconArray[i].alpha = 0;
 		}
 
-		iconArray[curSelected].alpha = 1;
+		iconArray[curSelected].alpha = 0;
 
 		for (item in grpSongs.members)
 		{
@@ -524,11 +564,8 @@ class FreeplayState extends MusicBeatState
 	}
 
 	private function positionHighscore() {
-		scoreText.x = FlxG.width - scoreText.width - 6;
 		scoreBG.scale.x = FlxG.width - scoreText.x + 6;
 		scoreBG.x = FlxG.width - (scoreBG.scale.x / 2);
-		diffText.x = Std.int(scoreBG.x + (scoreBG.width / 2));
-		diffText.x -= diffText.width / 2;
 	}
 
 	var _drawDistance:Int = 4;
@@ -549,8 +586,8 @@ class FreeplayState extends MusicBeatState
 		{
 			var item:Alphabet = grpSongs.members[i];
 			item.visible = item.active = true;
-			item.x = ((item.targetY - lerpSelected) * item.distancePerItem.x) + item.startPosition.x;
-			item.y = ((item.targetY - lerpSelected) * 1.3 * item.distancePerItem.y) + item.startPosition.y;
+			item.x = ((item.targetY - lerpSelected) * 0 * item.distancePerItem.x) + item.startPosition.x;
+			item.y = ((item.targetY - lerpSelected) * 2 * item.distancePerItem.y) + item.startPosition.y;
 
 			var icon:HealthIcon = iconArray[i];
 			icon.visible = icon.active = true;

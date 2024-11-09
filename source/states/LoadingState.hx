@@ -42,6 +42,8 @@ class LoadingState extends MusicBeatState
 	var loadBar:FlxSprite;
 	override function create()
 	{
+		openfl.Lib.application.window.title = 'Randomness Funkin - Felching a YN Bop';
+
 		var bg:FlxSprite = new FlxSprite(0, 0).makeGraphic(FlxG.width, FlxG.height, 0xffcaff4d);
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		add(bg);

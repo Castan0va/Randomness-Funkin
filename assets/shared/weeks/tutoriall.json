@@ -1,0 +1,20 @@
+{
+	"songs": [
+		["tutoriall", "face", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "renaldo900gamer",
+	"weekBefore": "",
+	"weekName": "tutoriall",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

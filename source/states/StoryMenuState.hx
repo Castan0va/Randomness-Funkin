@@ -43,6 +43,8 @@ class StoryMenuState extends MusicBeatState
 
 	override function create()
 	{
+		openfl.Lib.application.window.title = 'Randomness Funkin - Story Mode';
+
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
 

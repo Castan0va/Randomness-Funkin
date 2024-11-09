@@ -11,6 +11,14 @@ class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.7.3'; // This is also used for Discord RPC
 	public static var curSelected:Int = 0;
+	var randImage:FlxSprite;
+	var rareblud:FlxSprite;
+	var logo:FlxSprite;
+	var topborder:FlxSprite;
+	var bottomborder:FlxSprite;
+	var underlay:FlxSprite;
+	var checker:FlxSprite;
+	var specialcheck:Bool = false;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
 
@@ -18,6 +26,7 @@ class MainMenuState extends MusicBeatState
 		'story_mode',
 		'freeplay',
 		'options',
+		'gallery',
 		'credits'
 	];
 
@@ -45,15 +54,58 @@ class MainMenuState extends MusicBeatState
 		transOut = FlxTransitionableState.defaultTransOut;
 
 		persistentUpdate = persistentDraw = true;
-
+		final bgList = ['bg1', 'bg2', 'bg3', 'bg4'];
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image(bgList[FlxG.random.int(0, bgList.length-1)]));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.scrollFactor.set(0, yScroll);
-		bg.setGraphicSize(Std.int(bg.width * 1.175));
+		bg.setGraphicSize((1280 * 1.175), (760 * 1.175));
 		bg.updateHitbox();
 		bg.screenCenter();
 		add(bg);
+
+		var underlay:FlxSprite = new FlxSprite(-640,0).loadGraphic(Paths.image('underlaythingy'));
+		underlay.antialiasing = ClientPrefs.data.antialiasing;
+		underlay.alpha = 0.32;
+		underlay.setGraphicSize((1280 * 1.175), (760 * 1.175));
+		underlay.scrollFactor.set(0, 0);
+
+	
+		var checker:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('underlaything2'));
+		checker.antialiasing = ClientPrefs.data.antialiasing;
+		checker.alpha = 0.2;
+		checker.setGraphicSize((1280 * 1.175), (720 * 1.175));
+		checker.scrollFactor.set(0, 0);
+		add(checker);
+
+		FlxTween.tween(checker, { x: -49.35, y: -49.35}, 1, { type: FlxTween.LOOPING, ease: FlxEase.linear, startDelay: 0, loopDelay: 0 });
+
+		add(underlay);
+
+		var logo:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('logomenu'));
+		logo.antialiasing = ClientPrefs.data.antialiasing;
+		logo.scrollFactor.set(0, 0);
+		logo.scale.set(0.5, 0.5);
+		logo.setPosition(80,-380);
+		logo.screenCenter(X);
+
+		final imageList = ['menuchar1', 'menuchar2', 'menuchar3', 'menuchar4', 'menuchar5', 'menuchar6', 'menuchar7'];
+		randImage = new FlxSprite(50, 1000, Paths.image(imageList[FlxG.random.int(0, imageList.length-1)]));
+		randImage.antialiasing = ClientPrefs.data.antialiasing;
+		randImage.scrollFactor.set(0, 0);
+		add(randImage);
+		add(logo);
+
+		rareblud = new FlxSprite(700, 1000, Paths.image('menucharRARE'));
+		rareblud.antialiasing = ClientPrefs.data.antialiasing;
+		rareblud.scrollFactor.set(0, 0);
+
+		//change the 2 into a 1500 before finalizing
+		if (Math.random() * 1500 < 1) {
+			randImage.visible = false;
+			add(rareblud);
+			FlxTween.tween(rareblud, { x: 700, y: 160 }, 1.2, { type: FlxTween.ONESHOT, ease: FlxEase.quadOut, startDelay: 0.2, loopDelay: 0 });
+		}
 
 		camFollow = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
@@ -67,13 +119,18 @@ class MainMenuState extends MusicBeatState
 		magenta.color = 0xFFfd719b;
 		add(magenta);
 
+		var bottomborder:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('menuborderbottom'));
+		bottomborder.antialiasing = ClientPrefs.data.antialiasing;
+		bottomborder.scrollFactor.set(0, 0);
+		add(bottomborder);
+
 		menuItems = new FlxTypedGroup<FlxSprite>();
 		add(menuItems);
 
 		for (i in 0...optionShit.length)
 		{
 			var offset:Float = 108 - (Math.max(optionShit.length, 4) + 0) * 80;
-			var menuItem:FlxSprite = new FlxSprite(0, (i * 140) + offset);
+			var menuItem:FlxSprite = new FlxSprite(-80, (i * 140) + offset);
 			menuItem.antialiasing = ClientPrefs.data.antialiasing;
 			menuItem.frames = Paths.getSparrowAtlas('mainmenu/menu_' + optionShit[i]);
 			menuItem.animation.addByPrefix('idle', optionShit[i] + " basic", 24);
@@ -85,8 +142,13 @@ class MainMenuState extends MusicBeatState
 				scr = 0;
 			menuItem.scrollFactor.set(0, scr);
 			menuItem.updateHitbox();
-			menuItem.scale.set(0.5, 0.5);
+			menuItem.scale.set(0.45, 0.45);
 		}
+
+		var topborder:FlxSprite = new FlxSprite(0,0).loadGraphic(Paths.image('menubordertop'));
+		topborder.antialiasing = ClientPrefs.data.antialiasing;
+		topborder.scrollFactor.set(0, 0);
+		add(topborder);
 
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
@@ -113,12 +175,43 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollow, null, 9);
 
+		menuItems.members[0].setPosition(-730, -250);
+		menuItems.members[1].setPosition(-700, -95);
+		menuItems.members[2].setPosition(-700, 30);
+		menuItems.members[3].setPosition(-700, 155);
+		menuItems.members[4].setPosition(-707, 315);
+
+		menuItems.members[4].scale.set(0.4, 0.4);
+
+		FlxTween.tween(randImage, { x: 50, y: 0 }, 1.2, { type: FlxTween.ONESHOT, ease: FlxEase.quadOut, startDelay: 0.2, loopDelay: 0 });
+		FlxTween.tween(logo, { x: 190, y: -170 }, 1, { type: FlxTween.ONESHOT, ease: FlxEase.quadOut, startDelay: 0.2, loopDelay: 0 });
+		FlxTween.tween(logo, { x: 190, y: -190 }, 2, { type: FlxTween.PINGPONG, ease: FlxEase.quadInOut, startDelay: 1.2, loopDelay: 0 });
+		FlxTween.tween(underlay, { x: 0, y: 0 }, 1.5, { type: FlxTween.ONESHOT, ease: FlxEase.quadOut, startDelay: 0.6, loopDelay: 0 });
+
+		FlxTween.tween(menuItems.members[0], { x: -110, y: -250 }, 0.8, { type: FlxTween.ONESHOT, ease: FlxEase.backOut, startDelay: 1, loopDelay: 0 });
+		FlxTween.tween(menuItems.members[1], { x: -80, y: -95 }, 0.8, { type: FlxTween.ONESHOT, ease: FlxEase.backOut, startDelay: 1.2, loopDelay: 0 });
+		FlxTween.tween(menuItems.members[2], { x: -80, y: 30 }, 0.8, { type: FlxTween.ONESHOT, ease: FlxEase.backOut, startDelay: 1.4, loopDelay: 0 });
+		FlxTween.tween(menuItems.members[3], { x: -80, y: 155 }, 0.8, { type: FlxTween.ONESHOT, ease: FlxEase.backOut, startDelay: 1.6, loopDelay: 0 });
+		FlxTween.tween(menuItems.members[4], { x: -87, y: 315 }, 0.8, { type: FlxTween.ONESHOT, ease: FlxEase.backOut, startDelay: 1.8, loopDelay: 0 });
+
 	}
 
 	var selectedSomethin:Bool = false;
 
 	override function update(elapsed:Float)
 	{
+		menuItems.members[0].updateHitbox();
+		menuItems.members[1].updateHitbox();
+		menuItems.members[2].updateHitbox();
+		menuItems.members[3].updateHitbox();
+		menuItems.members[4].updateHitbox();
+
+		if (FlxG.mouse.overlaps(rareblud) && FlxG.mouse.justPressed)
+			{
+				PlayState.SONG = backend.Song.loadFromJson('dunner', 'dunner'); 
+				LoadingState.loadAndSwitchState(new PlayState());
+			}
+
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * elapsed;
@@ -176,6 +269,8 @@ class MainMenuState extends MusicBeatState
 
 							case 'credits':
 								MusicBeatState.switchState(new CreditsState());
+							case 'gallery':
+								MusicBeatState.switchState(new GalleryState());
 							case 'options':
 								MusicBeatState.switchState(new OptionsState());
 								OptionsState.onPlayState = false;

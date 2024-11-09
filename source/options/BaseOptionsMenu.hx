@@ -29,6 +29,9 @@ class BaseOptionsMenu extends MusicBeatSubstate
 	public var bg:FlxSprite;
 	public function new()
 	{
+
+
+		
 		super();
 
 		if(title == null) title = 'Options';

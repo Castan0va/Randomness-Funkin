@@ -1,0 +1,22 @@
+{
+	"songs": [
+		["testimonial rivals", "face", [165, 0, 77]]
+		["retest", "face", [165, 0, 77]]
+		["detest", "face", [165, 0, 77]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "mrtest",
+	"weekBefore": "week1",
+	"weekName": "week2",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}
