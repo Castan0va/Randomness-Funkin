@@ -8,9 +8,6 @@
 #ifndef INCLUDED_EReg
 #include <EReg.h>
 #endif
-#ifndef INCLUDED_Std
-#include <Std.h>
-#endif
 #ifndef INCLUDED_StringTools
 #include <StringTools.h>
 #endif
@@ -116,9 +113,6 @@
 #ifndef INCLUDED_flixel_tweens_FlxTween
 #include <flixel/tweens/FlxTween.h>
 #endif
-#ifndef INCLUDED_flixel_tweens_misc_ColorTween
-#include <flixel/tweens/misc/ColorTween.h>
-#endif
 #ifndef INCLUDED_flixel_tweens_misc_VarTween
 #include <flixel/tweens/misc/VarTween.h>
 #endif
@@ -192,95 +186,31 @@
 HX_DEFINE_STACK_FRAME(_hx_pos_47ca6c36334795a8_5_new,"states.GalleryState","new",0xb9dbe55d,"states.GalleryState.new","states/GalleryState.hx",5,0x9336ddd2)
 HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_22_create,"states.GalleryState","create",0x4706ce1f,"states.GalleryState.create","states/GalleryState.hx",22,0x9336ddd2)
 static const ::String _hx_array_data_f994f2eb_7[] = {
-	HX_("Psych Engine Team",36,ef,98,3e),
+	HX_("Cool Pictures lol",95,74,6d,c6),
 };
 static const ::String _hx_array_data_f994f2eb_8[] = {
-	HX_("Shadow Mario",c4,01,05,71),HX_("shadowmario",24,76,c0,e6),HX_("Main Programmer and Head of Psych Engine",dc,9d,47,32),HX_("https://ko-fi.com/shadowmario",05,5e,89,68),HX_("444444",80,a8,eb,dd),
+	HX_("",00,00,00,00),HX_("coolPicture",f5,78,21,16),HX_("Test Picture lolololol",30,f3,5d,44),HX_("",00,00,00,00),HX_("444444",80,a8,eb,dd),
 };
 static const ::String _hx_array_data_f994f2eb_9[] = {
-	HX_("Riveren",55,c6,ba,81),HX_("riveren",75,9e,69,b4),HX_("Main Artist/Animator of Psych Engine",f8,d1,00,db),HX_("https://twitter.com/riverennn",fd,f6,a7,18),HX_("14967B",ab,2b,29,ae),
+	HX_("",00,00,00,00),HX_("uncoolPicture",3c,ef,5b,37),HX_("Test Picture the sequel",dc,44,e0,73),HX_("",00,00,00,00),HX_("444444",80,a8,eb,dd),
 };
 static const ::String _hx_array_data_f994f2eb_10[] = {
-	HX_("",00,00,00,00),
+	HX_("",00,00,00,00),HX_("equallyCoolandUncoolPicture",8f,1c,a9,a0),HX_("Test Picture but its overused",f8,bd,9a,a4),HX_("",00,00,00,00),HX_("444444",80,a8,eb,dd),
 };
-static const ::String _hx_array_data_f994f2eb_11[] = {
-	HX_("Former Engine Members",ea,4a,f3,b3),
-};
-static const ::String _hx_array_data_f994f2eb_12[] = {
-	HX_("bb-panzu",cb,ef,e8,8b),HX_("bb",c0,55,00,00),HX_("Ex-Programmer of Psych Engine",c0,17,f3,40),HX_("https://twitter.com/bbsub3",6b,b6,13,17),HX_("3E813A",99,bb,02,44),
-};
-static const ::String _hx_array_data_f994f2eb_13[] = {
-	HX_("shubs",11,04,2c,7c),HX_("",00,00,00,00),HX_("Ex-Programmer of Psych Engine\nI don't support them.",b0,74,b8,13),HX_("",00,00,00,00),HX_("A1A1A1",70,26,f1,5e),
-};
-static const ::String _hx_array_data_f994f2eb_14[] = {
-	HX_("",00,00,00,00),
-};
-static const ::String _hx_array_data_f994f2eb_15[] = {
-	HX_("Engine Contributors",56,17,70,dc),
-};
-static const ::String _hx_array_data_f994f2eb_16[] = {
-	HX_("CrowPlexus",a4,56,49,d3),HX_("crowplexus",64,de,03,a8),HX_("Input System v3, Major Help and Other PRs",8c,e1,08,40),HX_("https://twitter.com/crowplexus",5c,14,bd,31),HX_("A1A1A1",70,26,f1,5e),
-};
-static const ::String _hx_array_data_f994f2eb_17[] = {
-	HX_("Keoiki",f2,5f,eb,6d),HX_("keoiki",d2,eb,56,39),HX_("Note Splash Animations and Latin Alphabet",9e,ce,cd,a6),HX_("https://twitter.com/Keoiki_",35,73,4e,3b),HX_("D2D2D2",ca,38,66,27),
-};
+HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_151_update,"states.GalleryState","update",0x51fced2c,"states.GalleryState.update","states/GalleryState.hx",151,0x9336ddd2)
+HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_232_changeSelection,"states.GalleryState","changeSelection",0x2747b539,"states.GalleryState.changeSelection","states/GalleryState.hx",232,0x9336ddd2)
+HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_269_pushModCreditsToList,"states.GalleryState","pushModCreditsToList",0x759f816e,"states.GalleryState.pushModCreditsToList","states/GalleryState.hx",269,0x9336ddd2)
 static const ::String _hx_array_data_f994f2eb_18[] = {
-	HX_("SqirraRNG",35,93,90,2a),HX_("sqirra",76,57,10,51),HX_("Crash Handler and Base code for\nChart Editor's Waveform",45,eb,fb,39),HX_("https://twitter.com/gedehari",87,e7,51,35),HX_("E1843A",f6,e6,6d,f2),
-};
-static const ::String _hx_array_data_f994f2eb_19[] = {
-	HX_("EliteMasterEric",1c,c5,50,08),HX_("mastereric",29,e3,63,9f),HX_("Runtime Shaders support",15,28,f0,9b),HX_("https://twitter.com/EliteMasterEric",24,ec,98,b2),HX_("FFBD40",fe,b8,db,76),
-};
-static const ::String _hx_array_data_f994f2eb_20[] = {
-	HX_("PolybiusProxy",5d,cc,61,1d),HX_("proxy",6e,ee,8f,c8),HX_(".MP4 Video Loader Library (hxCodec)",5b,07,4f,aa),HX_("https://twitter.com/polybiusproxy",a5,e1,66,7e),HX_("DCD294",c8,0b,36,f1),
-};
-static const ::String _hx_array_data_f994f2eb_21[] = {
-	HX_("Tahir",e4,b2,15,9e),HX_("tahir",04,43,e8,0a),HX_("Implementing & Maintaining SScript and Other PRs",f2,e6,57,b9),HX_("https://twitter.com/tahirk618",1e,bf,04,4c),HX_("A04397",6c,49,f4,c2),
-};
-static const ::String _hx_array_data_f994f2eb_22[] = {
-	HX_("iFlicky",97,81,42,80),HX_("flicky",4e,58,60,3d),HX_("Composer of Psync and Tea Time\nMade the Dialogue Sounds",d8,20,a1,f2),HX_("https://twitter.com/flicky_i",f0,22,3f,fa),HX_("9E29CF",16,be,35,a6),
-};
-static const ::String _hx_array_data_f994f2eb_23[] = {
-	HX_("KadeDev",5e,4b,70,ce),HX_("kade",97,c6,03,47),HX_("Fixed some issues on Chart Editor and Other PRs",62,bf,23,f7),HX_("https://twitter.com/kade0912",39,4f,a3,4e),HX_("64A250",aa,a3,38,b3),
-};
-static const ::String _hx_array_data_f994f2eb_24[] = {
-	HX_("superpowers04",cd,26,a9,a5),HX_("superpowers04",cd,26,a9,a5),HX_("LUA JIT Fork",35,fe,5d,15),HX_("https://twitter.com/superpowers04",d5,fb,cb,e1),HX_("B957ED",78,28,97,58),
-};
-static const ::String _hx_array_data_f994f2eb_25[] = {
-	HX_("CheemsAndFriends",29,ef,a1,57),HX_("face",9d,b4,b5,43),HX_("Creator of FlxAnimate\n(Icon will be added later, merry christmas!)",ff,99,ad,f6),HX_("https://twitter.com/CheemsnFriendos",2d,86,34,ac),HX_("A1A1A1",70,26,f1,5e),
-};
-static const ::String _hx_array_data_f994f2eb_26[] = {
 	HX_("",00,00,00,00),
 };
-static const ::String _hx_array_data_f994f2eb_27[] = {
-	HX_("Funkin' Crew",ab,00,2d,30),
-};
-static const ::String _hx_array_data_f994f2eb_28[] = {
-	HX_("ninjamuffin99",f7,4c,e5,00),HX_("ninjamuffin99",f7,4c,e5,00),HX_("Programmer of Friday Night Funkin'",2c,f9,c3,b2),HX_("https://twitter.com/ninja_muffin99",7a,ac,b6,89),HX_("CF2D2D",47,38,36,39),
-};
-static const ::String _hx_array_data_f994f2eb_29[] = {
-	HX_("PhantomArcade",9d,2d,b3,ef),HX_("phantomarcade",9d,69,2e,73),HX_("Animator of Friday Night Funkin'",7d,a9,23,e4),HX_("https://twitter.com/PhantomArcade3K",9d,e2,57,4f),HX_("FADC45",7b,7d,2c,97),
-};
-static const ::String _hx_array_data_f994f2eb_30[] = {
-	HX_("evilsk8r",66,38,e0,32),HX_("evilsk8r",66,38,e0,32),HX_("Artist of Friday Night Funkin'",dd,f8,e7,48),HX_("https://twitter.com/evilsk8r",5e,80,bd,94),HX_("5ABD4B",3c,b0,c9,c9),
-};
-static const ::String _hx_array_data_f994f2eb_31[] = {
-	HX_("kawaisprite",0e,de,66,45),HX_("kawaisprite",0e,de,66,45),HX_("Composer of Friday Night Funkin'",36,08,52,24),HX_("https://twitter.com/kawaisprite",16,e1,bc,3d),HX_("378FC7",c6,99,76,34),
-};
-HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_138_update,"states.GalleryState","update",0x51fced2c,"states.GalleryState.update","states/GalleryState.hx",138,0x9336ddd2)
-HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_214_changeSelection,"states.GalleryState","changeSelection",0x2747b539,"states.GalleryState.changeSelection","states/GalleryState.hx",214,0x9336ddd2)
-HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_233_changeSelection,"states.GalleryState","changeSelection",0x2747b539,"states.GalleryState.changeSelection","states/GalleryState.hx",233,0x9336ddd2)
-HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_265_pushModCreditsToList,"states.GalleryState","pushModCreditsToList",0x759f816e,"states.GalleryState.pushModCreditsToList","states/GalleryState.hx",265,0x9336ddd2)
-static const ::String _hx_array_data_f994f2eb_40[] = {
-	HX_("",00,00,00,00),
-};
-HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_285_unselectableCheck,"states.GalleryState","unselectableCheck",0x567e4dd6,"states.GalleryState.unselectableCheck","states/GalleryState.hx",285,0x9336ddd2)
+HX_LOCAL_STACK_FRAME(_hx_pos_47ca6c36334795a8_289_unselectableCheck,"states.GalleryState","unselectableCheck",0x567e4dd6,"states.GalleryState.unselectableCheck","states/GalleryState.hx",289,0x9336ddd2)
 namespace states{
 
 void GalleryState_obj::__construct( ::flixel::addons::transition::TransitionData TransIn, ::flixel::addons::transition::TransitionData TransOut){
             	HX_STACKFRAME(&_hx_pos_47ca6c36334795a8_5_new)
-HXLINE( 212)		this->moveTween = null();
-HXLINE( 136)		this->holdTime = ((Float)0);
-HXLINE( 135)		this->quitting = false;
+HXLINE( 230)		this->moveTween = null();
+HXLINE( 149)		this->holdTime = ((Float)0);
+HXLINE( 148)		this->quitting = false;
 HXLINE(  19)		this->offsetThing = ((Float)-75);
 HXLINE(  11)		this->creditsStuff = ::Array_obj< ::Dynamic>::__new(0);
 HXLINE(  10)		this->iconArray = ::Array_obj< ::Dynamic>::__new(0);
@@ -329,7 +259,7 @@ HXLINE(  23)		::openfl::Lib_obj::get_application()->_hx___window->set_title(HX_(
 HXLINE(  27)		::backend::DiscordClient_obj::changePresence(HX_("In the Menus",0a,c1,ad,c6),null(),null(),null(),null());
 HXLINE(  30)		this->persistentUpdate = true;
 HXLINE(  31)		 ::flixel::FlxSprite _hx_tmp =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
-HXDLIN(  31)		this->bg = _hx_tmp->loadGraphic(::backend::Paths_obj::image(HX_("menuDesat",26,91,04,72),null(),null()),null(),null(),null(),null(),null());
+HXDLIN(  31)		this->bg = _hx_tmp->loadGraphic(::backend::Paths_obj::image(HX_("bggallery",6d,9d,6d,be),null(),null()),null(),null(),null(),null(),null());
 HXLINE(  32)		this->bg->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
 HXLINE(  33)		this->add(this->bg);
 HXLINE(  34)		{
@@ -358,57 +288,75 @@ HXLINE(  34)				int _hx_tmp4 = ::flixel::FlxG_obj::height;
 HXDLIN(  34)				_this->set_y(((( (Float)(_hx_tmp4) ) - _this->get_height()) / ( (Float)(2) )));
             			}
             		}
-HXLINE(  36)		this->grpOptions =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
-HXLINE(  37)		this->add(this->grpOptions);
+HXLINE(  36)		 ::flixel::FlxSprite checker =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,0,null());
+HXDLIN(  36)		 ::flixel::FlxSprite checker1 = checker->loadGraphic(::backend::Paths_obj::image(HX_("underlaything2",d0,9f,05,f4),null(),null()),null(),null(),null(),null(),null());
+HXLINE(  37)		checker1->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
+HXLINE(  38)		checker1->set_alpha(((Float)0.2));
+HXLINE(  39)		checker1->setGraphicSize(((Float)1504.),((Float)846.));
 HXLINE(  40)		{
-HXLINE(  40)			int _g = 0;
-HXDLIN(  40)			if (!(::backend::Mods_obj::updatedOnState)) {
-HXLINE(  40)				::backend::Mods_obj::updateModList();
+HXLINE(  40)			 ::flixel::math::FlxBasePoint this1 = checker1->scrollFactor;
+HXDLIN(  40)			this1->set_x(( (Float)(0) ));
+HXDLIN(  40)			this1->set_y(( (Float)(0) ));
+            		}
+HXLINE(  41)		this->add(checker1);
+HXLINE(  43)		::flixel::tweens::FlxTween_obj::tween(checker1, ::Dynamic(::hx::Anon_obj::Create(2)
+            			->setFixed(0,HX_("x",78,00,00,00),((Float)-49.35))
+            			->setFixed(1,HX_("y",79,00,00,00),((Float)-49.35))),1, ::Dynamic(::hx::Anon_obj::Create(4)
+            			->setFixed(0,HX_("startDelay",c1,af,3d,f3),0)
+            			->setFixed(1,HX_("loopDelay",7f,f6,d2,04),0)
+            			->setFixed(2,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::linear_dyn())
+            			->setFixed(3,HX_("type",ba,f2,08,4d),::flixel::tweens::FlxTween_obj::LOOPING)));
+HXLINE(  45)		this->grpOptions =  ::flixel::group::FlxTypedGroup_obj::__alloc( HX_CTX ,null());
+HXLINE(  46)		this->add(this->grpOptions);
+HXLINE(  49)		{
+HXLINE(  49)			int _g = 0;
+HXDLIN(  49)			if (!(::backend::Mods_obj::updatedOnState)) {
+HXLINE(  49)				::backend::Mods_obj::updateModList();
             			}
-HXDLIN(  40)			::Array< ::String > list_enabled = ::Array_obj< ::String >::__new(0);
-HXDLIN(  40)			::Array< ::String > list_disabled = ::Array_obj< ::String >::__new(0);
-HXDLIN(  40)			::Array< ::String > list_all = ::Array_obj< ::String >::__new(0);
-HXDLIN(  40)			try {
+HXDLIN(  49)			::Array< ::String > list_enabled = ::Array_obj< ::String >::__new(0);
+HXDLIN(  49)			::Array< ::String > list_disabled = ::Array_obj< ::String >::__new(0);
+HXDLIN(  49)			::Array< ::String > list_all = ::Array_obj< ::String >::__new(0);
+HXDLIN(  49)			try {
             				HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE(  40)				int _g1 = 0;
-HXDLIN(  40)				::String path = HX_("modsList.txt",f1,ca,08,ac);
-HXDLIN(  40)				::String daList = null();
-HXDLIN(  40)				::Array< ::String > formatted = path.split(HX_(":",3a,00,00,00));
+HXLINE(  49)				int _g1 = 0;
+HXDLIN(  49)				::String path = HX_("modsList.txt",f1,ca,08,ac);
+HXDLIN(  49)				::String daList = null();
+HXDLIN(  49)				::Array< ::String > formatted = path.split(HX_(":",3a,00,00,00));
 HXLINE(  23)				path = formatted->__get((formatted->length - 1));
-HXLINE(  40)				if (::sys::FileSystem_obj::exists(path)) {
+HXLINE(  49)				if (::sys::FileSystem_obj::exists(path)) {
 HXLINE(  24)					daList = ::sys::io::File_obj::getContent(path);
             				}
-HXLINE(  40)				::Array< ::String > _g2;
-HXDLIN(  40)				if (::hx::IsNotNull( daList )) {
-HXLINE(  40)					::Array< ::String > daList1 = ::Array_obj< ::String >::__new(0);
+HXLINE(  49)				::Array< ::String > _g2;
+HXDLIN(  49)				if (::hx::IsNotNull( daList )) {
+HXLINE(  49)					::Array< ::String > daList1 = ::Array_obj< ::String >::__new(0);
 HXLINE(  45)					daList1 = ::StringTools_obj::trim(daList).split(HX_("\n",0a,00,00,00));
-HXLINE(  40)					{
-HXLINE(  40)						int _g3 = 0;
-HXDLIN(  40)						int _g4 = daList1->length;
-HXDLIN(  40)						while((_g3 < _g4)){
-HXLINE(  40)							_g3 = (_g3 + 1);
-HXDLIN(  40)							int i = (_g3 - 1);
-HXDLIN(  40)							daList1[i] = ::StringTools_obj::trim(daList1->__get(i));
+HXLINE(  49)					{
+HXLINE(  49)						int _g3 = 0;
+HXDLIN(  49)						int _g4 = daList1->length;
+HXDLIN(  49)						while((_g3 < _g4)){
+HXLINE(  49)							_g3 = (_g3 + 1);
+HXDLIN(  49)							int i = (_g3 - 1);
+HXDLIN(  49)							daList1[i] = ::StringTools_obj::trim(daList1->__get(i));
             						}
             					}
-HXDLIN(  40)					_g2 = daList1;
+HXDLIN(  49)					_g2 = daList1;
             				}
             				else {
-HXLINE(  40)					_g2 = ::Array_obj< ::String >::__new(0);
+HXLINE(  49)					_g2 = ::Array_obj< ::String >::__new(0);
             				}
-HXDLIN(  40)				while((_g1 < _g2->length)){
-HXLINE(  40)					::String mod = _g2->__get(_g1);
-HXDLIN(  40)					_g1 = (_g1 + 1);
-HXDLIN(  40)					if ((::StringTools_obj::trim(mod).length < 1)) {
-HXLINE(  40)						continue;
+HXDLIN(  49)				while((_g1 < _g2->length)){
+HXLINE(  49)					::String mod = _g2->__get(_g1);
+HXDLIN(  49)					_g1 = (_g1 + 1);
+HXDLIN(  49)					if ((::StringTools_obj::trim(mod).length < 1)) {
+HXLINE(  49)						continue;
             					}
-HXDLIN(  40)					::Array< ::String > dat = mod.split(HX_("|",7c,00,00,00));
-HXDLIN(  40)					list_all->push(dat->__get(0));
-HXDLIN(  40)					if ((dat->__get(1) == HX_("1",31,00,00,00))) {
-HXLINE(  40)						list_enabled->push(dat->__get(0));
+HXDLIN(  49)					::Array< ::String > dat = mod.split(HX_("|",7c,00,00,00));
+HXDLIN(  49)					list_all->push(dat->__get(0));
+HXDLIN(  49)					if ((dat->__get(1) == HX_("1",31,00,00,00))) {
+HXLINE(  49)						list_enabled->push(dat->__get(0));
             					}
             					else {
-HXLINE(  40)						list_disabled->push(dat->__get(0));
+HXLINE(  49)						list_disabled->push(dat->__get(0));
             					}
             				}
             			} catch( ::Dynamic _hx_e) {
@@ -416,389 +364,448 @@ HXLINE(  40)						list_disabled->push(dat->__get(0));
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g5 = _hx_e;
 HXLINE( 166)					 ::haxe::Exception e = ::haxe::Exception_obj::caught(_g5);
-HXLINE(  40)					::haxe::Log_obj::trace(e,::hx::SourceInfo(HX_("source/backend/Mods.hx",1e,5b,8b,ff),167,HX_("backend.Mods",2b,aa,ba,a1),HX_("parseList",31,6e,59,cf)));
+HXLINE(  49)					::haxe::Log_obj::trace(e,::hx::SourceInfo(HX_("source/backend/Mods.hx",1e,5b,8b,ff),167,HX_("backend.Mods",2b,aa,ba,a1),HX_("parseList",31,6e,59,cf)));
             				}
             				else {
             					HX_STACK_DO_THROW(_hx_e);
             				}
             			}
-HXDLIN(  40)			::Array< ::String > _g6 = list_enabled;
-HXDLIN(  40)			while((_g < _g6->length)){
-HXLINE(  40)				::String mod1 = _g6->__get(_g);
-HXDLIN(  40)				_g = (_g + 1);
-HXDLIN(  40)				this->pushModCreditsToList(mod1);
+HXDLIN(  49)			::Array< ::String > _g6 = list_enabled;
+HXDLIN(  49)			while((_g < _g6->length)){
+HXLINE(  49)				::String mod1 = _g6->__get(_g);
+HXDLIN(  49)				_g = (_g + 1);
+HXDLIN(  49)				this->pushModCreditsToList(mod1);
             			}
             		}
-HXLINE(  43)		::Array< ::Dynamic> defaultList = ::Array_obj< ::Dynamic>::__new(25)->init(0,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_7,1))->init(1,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_8,5))->init(2,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_9,5))->init(3,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_10,1))->init(4,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_11,1))->init(5,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_12,5))->init(6,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_13,5))->init(7,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_14,1))->init(8,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_15,1))->init(9,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_16,5))->init(10,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_17,5))->init(11,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_18,5))->init(12,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_19,5))->init(13,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_20,5))->init(14,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_21,5))->init(15,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_22,5))->init(16,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_23,5))->init(17,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_24,5))->init(18,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_25,5))->init(19,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_26,1))->init(20,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_27,1))->init(21,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_28,5))->init(22,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_29,5))->init(23,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_30,5))->init(24,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_31,5));
-HXLINE(  71)		{
-HXLINE(  71)			int _g7 = 0;
-HXDLIN(  71)			while((_g7 < defaultList->length)){
-HXLINE(  71)				::Array< ::String > i1 = defaultList->__get(_g7).StaticCast< ::Array< ::String > >();
-HXDLIN(  71)				_g7 = (_g7 + 1);
-HXLINE(  72)				this->creditsStuff->push(i1);
+HXLINE(  52)		::Array< ::Dynamic> defaultList = ::Array_obj< ::Dynamic>::__new(4)->init(0,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_7,1))->init(1,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_8,5))->init(2,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_9,5))->init(3,::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_10,5));
+HXLINE(  59)		{
+HXLINE(  59)			int _g7 = 0;
+HXDLIN(  59)			while((_g7 < defaultList->length)){
+HXLINE(  59)				::Array< ::String > i1 = defaultList->__get(_g7).StaticCast< ::Array< ::String > >();
+HXDLIN(  59)				_g7 = (_g7 + 1);
+HXLINE(  60)				this->creditsStuff->push(i1);
             			}
             		}
-HXLINE(  75)		{
-HXLINE(  75)			int _g8 = 0;
-HXDLIN(  75)			int _g9 = this->creditsStuff->length;
-HXDLIN(  75)			while((_g8 < _g9)){
-HXLINE(  75)				_g8 = (_g8 + 1);
-HXDLIN(  75)				int i2 = (_g8 - 1);
-HXLINE(  77)				bool isSelectable = !(this->unselectableCheck(i2));
-HXLINE(  78)				 ::objects::Alphabet optionText =  ::objects::Alphabet_obj::__alloc( HX_CTX ,(( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )),( (Float)(300) ),this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(0),!(isSelectable));
-HXLINE(  79)				optionText->isMenuItem = true;
-HXLINE(  80)				optionText->targetY = i2;
-HXLINE(  81)				optionText->changeX = false;
-HXLINE(  82)				optionText->snapToPosition();
-HXLINE(  83)				this->grpOptions->add(optionText).StaticCast<  ::objects::Alphabet >();
-HXLINE(  85)				if (isSelectable) {
-HXLINE(  86)					if (::hx::IsNotNull( this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(5) )) {
-HXLINE(  88)						::backend::Mods_obj::currentModDirectory = this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(5);
+HXLINE(  63)		{
+HXLINE(  63)			int _g8 = 0;
+HXDLIN(  63)			int _g9 = this->creditsStuff->length;
+HXDLIN(  63)			while((_g8 < _g9)){
+HXLINE(  63)				_g8 = (_g8 + 1);
+HXDLIN(  63)				int i2 = (_g8 - 1);
+HXLINE(  65)				bool isSelectable = !(this->unselectableCheck(i2));
+HXLINE(  66)				 ::objects::Alphabet optionText =  ::objects::Alphabet_obj::__alloc( HX_CTX ,(( (Float)(::flixel::FlxG_obj::width) ) / ( (Float)(2) )),( (Float)(300) ),this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(0),!(isSelectable));
+HXLINE(  67)				optionText->isMenuItem = true;
+HXLINE(  68)				optionText->targetY = i2;
+HXLINE(  69)				optionText->set_alpha(( (Float)(0) ));
+HXLINE(  70)				optionText->changeX = false;
+HXLINE(  71)				optionText->snapToPosition();
+HXLINE(  72)				this->grpOptions->add(optionText).StaticCast<  ::objects::Alphabet >();
+HXLINE(  74)				if (isSelectable) {
+HXLINE(  75)					if (::hx::IsNotNull( this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(5) )) {
+HXLINE(  77)						::backend::Mods_obj::currentModDirectory = this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(5);
             					}
-HXLINE(  91)					::String str = HX_("credits/missing_icon",87,66,74,31);
-HXLINE(  92)					bool _hx_tmp5;
-HXDLIN(  92)					if (::hx::IsNotNull( this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(1) )) {
-HXLINE(  92)						_hx_tmp5 = (this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(1).length > 0);
+HXLINE(  80)					::String str = HX_("gallery/missing_picture",e8,f0,ee,77);
+HXLINE(  81)					bool _hx_tmp5;
+HXDLIN(  81)					if (::hx::IsNotNull( this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(1) )) {
+HXLINE(  81)						_hx_tmp5 = (this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(1).length > 0);
             					}
             					else {
-HXLINE(  92)						_hx_tmp5 = false;
+HXLINE(  81)						_hx_tmp5 = false;
             					}
-HXDLIN(  92)					if (_hx_tmp5) {
-HXLINE(  94)						::String fileName = (HX_("credits/",d5,48,ee,de) + this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(1));
-HXLINE(  95)						if (::backend::Paths_obj::fileExists(((HX_("images/",77,50,74,c1) + fileName) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),null(),null())) {
-HXLINE(  95)							str = fileName;
+HXDLIN(  81)					if (_hx_tmp5) {
+HXLINE(  83)						::String fileName = (HX_("gallery/",5d,ff,d8,65) + this->creditsStuff->__get(i2).StaticCast< ::Array< ::String > >()->__get(1));
+HXLINE(  84)						if (::backend::Paths_obj::fileExists(((HX_("images/",77,50,74,c1) + fileName) + HX_(".png",3b,2d,bd,1e)),HX_("IMAGE",3b,57,57,3b),null(),null())) {
+HXLINE(  84)							str = fileName;
             						}
             						else {
-HXLINE(  96)							if (::backend::Paths_obj::fileExists(((HX_("images/",77,50,74,c1) + fileName) + HX_("-pixel.png",f4,c0,84,ba)),HX_("IMAGE",3b,57,57,3b),null(),null())) {
-HXLINE(  96)								str = (fileName + HX_("-pixel",39,03,b3,c0));
+HXLINE(  85)							if (::backend::Paths_obj::fileExists(((HX_("images/",77,50,74,c1) + fileName) + HX_("-pixel.png",f4,c0,84,ba)),HX_("IMAGE",3b,57,57,3b),null(),null())) {
+HXLINE(  85)								str = (fileName + HX_("-pixel",39,03,b3,c0));
             							}
             						}
             					}
-HXLINE(  99)					 ::objects::AttachedSprite icon =  ::objects::AttachedSprite_obj::__alloc( HX_CTX ,str,null(),null(),null());
-HXLINE( 100)					if (::StringTools_obj::endsWith(str,HX_("-pixel",39,03,b3,c0))) {
-HXLINE( 100)						icon->set_antialiasing(false);
+HXLINE(  88)					 ::objects::AttachedSprite icon =  ::objects::AttachedSprite_obj::__alloc( HX_CTX ,str,null(),null(),null());
+HXLINE(  89)					if (::StringTools_obj::endsWith(str,HX_("-pixel",39,03,b3,c0))) {
+HXLINE(  89)						icon->set_antialiasing(false);
             					}
-HXLINE( 101)					icon->xAdd = (optionText->get_width() + 10);
-HXLINE( 102)					icon->sprTracker = optionText;
-HXLINE( 105)					this->iconArray->push(icon);
-HXLINE( 106)					this->add(icon);
-HXLINE( 107)					::backend::Mods_obj::currentModDirectory = HX_("",00,00,00,00);
-HXLINE( 109)					if ((this->curSelected == -1)) {
-HXLINE( 109)						this->curSelected = i2;
+HXLINE(  90)					icon->xAdd = (optionText->get_width() + 10);
+HXLINE(  91)					icon->sprTracker = optionText;
+HXLINE(  94)					this->iconArray->push(icon);
+HXLINE(  95)					this->add(icon);
+HXLINE(  96)					::backend::Mods_obj::currentModDirectory = HX_("",00,00,00,00);
+HXLINE(  98)					if ((this->curSelected == -1)) {
+HXLINE(  98)						this->curSelected = i2;
             					}
             				}
             				else {
-HXLINE( 111)					optionText->set_alignment(::objects::Alignment_obj::CENTERED_dyn());
+HXLINE( 100)					optionText->set_alignment(::objects::Alignment_obj::CENTERED_dyn());
             				}
             			}
             		}
-HXLINE( 114)		this->descBox =  ::objects::AttachedSprite_obj::__alloc( HX_CTX ,null(),null(),null(),null());
-HXLINE( 115)		this->descBox->makeGraphic(1,1,-16777216,null(),null());
-HXLINE( 116)		this->descBox->xAdd = ( (Float)(-10) );
-HXLINE( 117)		this->descBox->yAdd = ( (Float)(-10) );
-HXLINE( 118)		this->descBox->alphaMult = ((Float)0.6);
-HXLINE( 119)		this->descBox->set_alpha(((Float)0.6));
-HXLINE( 120)		this->add(this->descBox);
-HXLINE( 122)		this->descText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,50,((::flixel::FlxG_obj::height + this->offsetThing) - ( (Float)(25) )),1180,HX_("",00,00,00,00),32,null());
-HXLINE( 123)		 ::flixel::text::FlxText _hx_tmp6 = this->descText;
-HXDLIN( 123)		::String file = ::backend::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
-HXDLIN( 123)		::String _hx_tmp7;
-HXDLIN( 123)		if (::sys::FileSystem_obj::exists(file)) {
-HXLINE( 123)			_hx_tmp7 = file;
+HXLINE( 103)		 ::flixel::FlxSprite overlay =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,0,null());
+HXDLIN( 103)		 ::flixel::FlxSprite overlay1 = overlay->loadGraphic(::backend::Paths_obj::image(HX_("galleryborder",fe,86,af,34),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 104)		overlay1->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
+HXLINE( 105)		{
+HXLINE( 105)			 ::flixel::math::FlxBasePoint this2 = overlay1->scrollFactor;
+HXDLIN( 105)			this2->set_x(( (Float)(0) ));
+HXDLIN( 105)			this2->set_y(( (Float)(0) ));
+            		}
+HXLINE( 106)		overlay1->setGraphicSize(1280,720);
+HXLINE( 107)		this->add(overlay1);
+HXLINE( 109)		 ::flixel::FlxSprite gallery =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,0,null());
+HXDLIN( 109)		 ::flixel::FlxSprite gallery1 = gallery->loadGraphic(::backend::Paths_obj::image(HX_("logallery",6f,48,6f,c5),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 110)		gallery1->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
+HXLINE( 111)		{
+HXLINE( 111)			 ::flixel::math::FlxBasePoint this3 = gallery1->scrollFactor;
+HXDLIN( 111)			this3->set_x(( (Float)(0) ));
+HXDLIN( 111)			this3->set_y(( (Float)(0) ));
+            		}
+HXLINE( 112)		{
+HXLINE( 112)			 ::flixel::math::FlxBasePoint this4 = gallery1->scale;
+HXDLIN( 112)			this4->set_x(((Float)0.5));
+HXDLIN( 112)			this4->set_y(((Float)0.5));
+            		}
+HXLINE( 113)		gallery1->setPosition(10,0);
+HXLINE( 115)		::flixel::tweens::FlxTween_obj::tween(gallery1, ::Dynamic(::hx::Anon_obj::Create(2)
+            			->setFixed(0,HX_("x",78,00,00,00),500)
+            			->setFixed(1,HX_("y",79,00,00,00),-500)),2, ::Dynamic(::hx::Anon_obj::Create(4)
+            			->setFixed(0,HX_("startDelay",c1,af,3d,f3),0)
+            			->setFixed(1,HX_("loopDelay",7f,f6,d2,04),0)
+            			->setFixed(2,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::quadInOut_dyn())
+            			->setFixed(3,HX_("type",ba,f2,08,4d),::flixel::tweens::FlxTween_obj::PINGPONG)));
+HXLINE( 117)		 ::flixel::FlxSprite arrowleft =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,0,null());
+HXDLIN( 117)		 ::flixel::FlxSprite arrowleft1 = arrowleft->loadGraphic(::backend::Paths_obj::image(HX_("arrowleft",50,9a,7a,18),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 118)		arrowleft1->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
+HXLINE( 119)		{
+HXLINE( 119)			 ::flixel::math::FlxBasePoint this5 = arrowleft1->scrollFactor;
+HXDLIN( 119)			this5->set_x(( (Float)(0) ));
+HXDLIN( 119)			this5->set_y(( (Float)(0) ));
+            		}
+HXLINE( 120)		arrowleft1->setGraphicSize(1280,720);
+HXLINE( 121)		this->add(arrowleft1);
+HXLINE( 123)		 ::flixel::FlxSprite arrowright =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,0,0,null());
+HXDLIN( 123)		 ::flixel::FlxSprite arrowright1 = arrowright->loadGraphic(::backend::Paths_obj::image(HX_("arrowright",73,79,d9,c9),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 124)		arrowright1->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
+HXLINE( 125)		{
+HXLINE( 125)			 ::flixel::math::FlxBasePoint this6 = arrowright1->scrollFactor;
+HXDLIN( 125)			this6->set_x(( (Float)(0) ));
+HXDLIN( 125)			this6->set_y(( (Float)(0) ));
+            		}
+HXLINE( 126)		arrowright1->setGraphicSize(1280,720);
+HXLINE( 127)		this->add(arrowright1);
+HXLINE( 129)		this->descBox =  ::objects::AttachedSprite_obj::__alloc( HX_CTX ,null(),null(),null(),null());
+HXLINE( 130)		this->descBox->makeGraphic(1,1,-16777216,null(),null());
+HXLINE( 131)		this->descBox->xAdd = ( (Float)(-10) );
+HXLINE( 132)		this->descBox->yAdd = ( (Float)(-10) );
+HXLINE( 133)		this->descBox->alphaMult = ((Float)0.6);
+HXLINE( 134)		this->descBox->set_alpha(((Float)0.6));
+HXLINE( 135)		this->add(this->descBox);
+HXLINE( 137)		this->descText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,50,((::flixel::FlxG_obj::height + this->offsetThing) - ( (Float)(25) )),1180,HX_("",00,00,00,00),32,null());
+HXLINE( 138)		 ::flixel::text::FlxText _hx_tmp6 = this->descText;
+HXDLIN( 138)		::String file = ::backend::Paths_obj::modFolders((HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82)));
+HXDLIN( 138)		::String _hx_tmp7;
+HXDLIN( 138)		if (::sys::FileSystem_obj::exists(file)) {
+HXLINE( 138)			_hx_tmp7 = file;
             		}
             		else {
-HXLINE( 123)			_hx_tmp7 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
+HXLINE( 138)			_hx_tmp7 = (HX_("assets/fonts/",37,ff,a5,9c) + HX_("vcr.ttf",9d,d2,a7,82));
             		}
-HXDLIN( 123)		_hx_tmp6->setFormat(_hx_tmp7,32,-1,HX_("center",d5,25,db,05),null(),null(),null());
-HXLINE( 124)		{
-HXLINE( 124)			 ::flixel::math::FlxBasePoint this1 = this->descText->scrollFactor;
-HXDLIN( 124)			this1->set_x(( (Float)(0) ));
-HXDLIN( 124)			this1->set_y(( (Float)(0) ));
+HXDLIN( 138)		_hx_tmp6->setFormat(_hx_tmp7,32,-1,HX_("center",d5,25,db,05),null(),null(),null());
+HXLINE( 139)		{
+HXLINE( 139)			 ::flixel::math::FlxBasePoint this7 = this->descText->scrollFactor;
+HXDLIN( 139)			this7->set_x(( (Float)(0) ));
+HXDLIN( 139)			this7->set_y(( (Float)(0) ));
             		}
-HXLINE( 126)		this->descBox->sprTracker = this->descText;
-HXLINE( 127)		this->add(this->descText);
-HXLINE( 129)		 ::flixel::FlxSprite _hx_tmp8 = this->bg;
-HXDLIN( 129)		::String color = this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(4);
-HXDLIN( 129)		 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[\t\n\r]",ac,57,71,6b),HX_("",00,00,00,00));
-HXDLIN( 129)		::String color1 = ::StringTools_obj::trim(hideChars->split(color)->join(HX_("",00,00,00,00)));
-HXDLIN( 129)		if (::StringTools_obj::startsWith(color1,HX_("0x",48,2a,00,00))) {
-HXLINE(  35)			color1 = color1.substring((color1.length - 6),null());
-            		}
-HXLINE( 129)		 ::Dynamic colorNum = ::flixel::util::_FlxColor::FlxColor_Impl__obj::fromString(color1);
-HXDLIN( 129)		if (::hx::IsNull( colorNum )) {
-HXLINE(  38)			colorNum = ::flixel::util::_FlxColor::FlxColor_Impl__obj::fromString((HX_("#",23,00,00,00) + color1));
-            		}
-HXLINE( 129)		int _hx_tmp9;
-HXDLIN( 129)		if (::hx::IsNotNull( colorNum )) {
-HXLINE( 129)			_hx_tmp9 = ( (int)(colorNum) );
-            		}
-            		else {
-HXLINE( 129)			_hx_tmp9 = -1;
-            		}
-HXDLIN( 129)		_hx_tmp8->set_color(_hx_tmp9);
-HXLINE( 130)		this->intendedColor = this->bg->color;
-HXLINE( 131)		this->changeSelection(null());
-HXLINE( 132)		this->super::create();
+HXLINE( 141)		this->descBox->sprTracker = this->descText;
+HXLINE( 142)		this->add(this->descText);
+HXLINE( 144)		this->changeSelection(null());
+HXLINE( 145)		this->super::create();
             	}
 
 
 void GalleryState_obj::update(Float elapsed){
-            	HX_GC_STACKFRAME(&_hx_pos_47ca6c36334795a8_138_update)
-HXLINE( 139)		if ((::flixel::FlxG_obj::sound->music->_volume < ((Float)0.7))) {
-HXLINE( 141)			 ::flixel::sound::FlxSound fh = ::flixel::FlxG_obj::sound->music;
-HXDLIN( 141)			fh->set_volume((fh->_volume + (((Float)0.5) * ::flixel::FlxG_obj::elapsed)));
+            	HX_GC_STACKFRAME(&_hx_pos_47ca6c36334795a8_151_update)
+HXLINE( 152)		if ((::flixel::FlxG_obj::sound->music->_volume < ((Float)0.7))) {
+HXLINE( 154)			 ::flixel::sound::FlxSound fh = ::flixel::FlxG_obj::sound->music;
+HXDLIN( 154)			fh->set_volume((fh->_volume + (((Float)0.5) * ::flixel::FlxG_obj::elapsed)));
             		}
-HXLINE( 144)		if (!(this->quitting)) {
-HXLINE( 146)			if ((this->creditsStuff->length > 1)) {
-HXLINE( 148)				int shiftMult = 1;
-HXLINE( 149)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
-HXDLIN( 149)				if (_this->keyManager->checkStatusUnsafe(16,_this->status)) {
-HXLINE( 149)					shiftMult = 3;
+HXLINE( 157)		if (!(this->quitting)) {
+HXLINE( 159)			if ((this->creditsStuff->length > 1)) {
+HXLINE( 161)				int shiftMult = 1;
+HXLINE( 162)				 ::flixel::input::keyboard::FlxKeyList _this = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->pressed) );
+HXDLIN( 162)				if (_this->keyManager->checkStatusUnsafe(16,_this->status)) {
+HXLINE( 162)					shiftMult = 3;
             				}
-HXLINE( 151)				bool upP = this->get_controls()->get_UI_UP_P();
-HXLINE( 152)				bool downP = this->get_controls()->get_UI_DOWN_P();
-HXLINE( 154)				if (upP) {
-HXLINE( 156)					this->changeSelection(-(shiftMult));
-HXLINE( 157)					this->holdTime = ( (Float)(0) );
+HXLINE( 164)				bool upP = this->get_controls()->get_UI_LEFT_P();
+HXLINE( 165)				bool downP = this->get_controls()->get_UI_RIGHT_P();
+HXLINE( 167)				if (upP) {
+HXLINE( 169)					this->changeSelection(-(shiftMult));
+HXLINE( 170)					this->holdTime = ( (Float)(0) );
             				}
-HXLINE( 159)				if (downP) {
-HXLINE( 161)					this->changeSelection(shiftMult);
-HXLINE( 162)					this->holdTime = ( (Float)(0) );
+HXLINE( 172)				if (downP) {
+HXLINE( 174)					this->changeSelection(shiftMult);
+HXLINE( 175)					this->holdTime = ( (Float)(0) );
             				}
-HXLINE( 165)				bool _hx_tmp;
-HXDLIN( 165)				if (!(this->get_controls()->get_UI_DOWN())) {
-HXLINE( 165)					_hx_tmp = this->get_controls()->get_UI_UP();
+HXLINE( 178)				bool _hx_tmp;
+HXDLIN( 178)				if (!(this->get_controls()->get_UI_DOWN())) {
+HXLINE( 178)					_hx_tmp = this->get_controls()->get_UI_UP();
             				}
             				else {
-HXLINE( 165)					_hx_tmp = true;
+HXLINE( 178)					_hx_tmp = true;
             				}
-HXDLIN( 165)				if (_hx_tmp) {
-HXLINE( 167)					int checkLastHold = ::Math_obj::floor(((this->holdTime - ((Float)0.5)) * ( (Float)(10) )));
-HXLINE( 168)					 ::states::GalleryState _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 168)					_hx_tmp1->holdTime = (_hx_tmp1->holdTime + elapsed);
-HXLINE( 169)					int checkNewHold = ::Math_obj::floor(((this->holdTime - ((Float)0.5)) * ( (Float)(10) )));
-HXLINE( 171)					bool _hx_tmp2;
-HXDLIN( 171)					if ((this->holdTime > ((Float)0.5))) {
-HXLINE( 171)						_hx_tmp2 = ((checkNewHold - checkLastHold) > 0);
+HXDLIN( 178)				if (_hx_tmp) {
+HXLINE( 180)					int checkLastHold = ::Math_obj::floor(((this->holdTime - ((Float)0.5)) * ( (Float)(10) )));
+HXLINE( 181)					 ::states::GalleryState _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 181)					_hx_tmp1->holdTime = (_hx_tmp1->holdTime + elapsed);
+HXLINE( 182)					int checkNewHold = ::Math_obj::floor(((this->holdTime - ((Float)0.5)) * ( (Float)(10) )));
+HXLINE( 184)					bool _hx_tmp2;
+HXDLIN( 184)					if ((this->holdTime > ((Float)0.5))) {
+HXLINE( 184)						_hx_tmp2 = ((checkNewHold - checkLastHold) > 0);
             					}
             					else {
-HXLINE( 171)						_hx_tmp2 = false;
+HXLINE( 184)						_hx_tmp2 = false;
             					}
-HXDLIN( 171)					if (_hx_tmp2) {
-HXLINE( 173)						int _hx_tmp3;
-HXDLIN( 173)						if (this->get_controls()->get_UI_UP()) {
-HXLINE( 173)							_hx_tmp3 = -(shiftMult);
+HXDLIN( 184)					if (_hx_tmp2) {
+HXLINE( 186)						int _hx_tmp3;
+HXDLIN( 186)						if (this->get_controls()->get_UI_UP()) {
+HXLINE( 186)							_hx_tmp3 = -(shiftMult);
             						}
             						else {
-HXLINE( 173)							_hx_tmp3 = shiftMult;
+HXLINE( 186)							_hx_tmp3 = shiftMult;
             						}
-HXDLIN( 173)						this->changeSelection(((checkNewHold - checkLastHold) * _hx_tmp3));
+HXDLIN( 186)						this->changeSelection(((checkNewHold - checkLastHold) * _hx_tmp3));
             					}
             				}
             			}
-HXLINE( 178)			bool _hx_tmp4;
-HXDLIN( 178)			if (this->get_controls()->get_ACCEPT()) {
-HXLINE( 178)				if (::hx::IsNotNull( this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(3) )) {
-HXLINE( 178)					_hx_tmp4 = (this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(3).length > 4);
+HXLINE( 191)			bool _hx_tmp4;
+HXDLIN( 191)			if (this->get_controls()->get_ACCEPT()) {
+HXLINE( 191)				if (::hx::IsNotNull( this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(3) )) {
+HXLINE( 191)					_hx_tmp4 = (this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(3).length > 4);
             				}
             				else {
-HXLINE( 178)					_hx_tmp4 = true;
+HXLINE( 191)					_hx_tmp4 = true;
             				}
             			}
             			else {
-HXLINE( 178)				_hx_tmp4 = false;
+HXLINE( 191)				_hx_tmp4 = false;
             			}
-HXDLIN( 178)			if (_hx_tmp4) {
-HXLINE( 179)				::String url = this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(3);
-HXDLIN( 179)				if (!( ::EReg_obj::__alloc( HX_CTX ,HX_("^.\\w+?:/*",16,3c,ef,2d),HX_("",00,00,00,00))->match(url))) {
-HXLINE( 179)					url = (HX_("https://",cf,b4,ae,3e) + url);
+HXDLIN( 191)			if (_hx_tmp4) {
+HXLINE( 192)				::String url = this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(3);
+HXDLIN( 192)				if (!( ::EReg_obj::__alloc( HX_CTX ,HX_("^.\\w+?:/*",16,3c,ef,2d),HX_("",00,00,00,00))->match(url))) {
+HXLINE( 192)					url = (HX_("https://",cf,b4,ae,3e) + url);
             				}
-HXDLIN( 179)				::openfl::Lib_obj::getURL( ::openfl::net::URLRequest_obj::__alloc( HX_CTX ,url),HX_("_blank",95,26,d9,b0));
+HXDLIN( 192)				::openfl::Lib_obj::getURL( ::openfl::net::URLRequest_obj::__alloc( HX_CTX ,url),HX_("_blank",95,26,d9,b0));
             			}
-HXLINE( 181)			if (this->get_controls()->get_BACK()) {
-HXLINE( 183)				if (::hx::IsNotNull( this->colorTween )) {
-HXLINE( 184)					this->colorTween->cancel();
+HXLINE( 194)			if (this->get_controls()->get_BACK()) {
+HXLINE( 196)				if (::hx::IsNotNull( this->colorTween )) {
+HXLINE( 197)					this->colorTween->cancel();
             				}
-HXLINE( 186)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp5 = ::flixel::FlxG_obj::sound;
-HXDLIN( 186)				_hx_tmp5->play(::backend::Paths_obj::sound(HX_("cancelMenu",39,a4,43,b7),null()),null(),null(),null(),null(),null());
-HXLINE( 187)				::backend::MusicBeatState_obj::switchState( ::states::MainMenuState_obj::__alloc( HX_CTX ,null(),null()));
-HXLINE( 188)				this->quitting = true;
+HXLINE( 199)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp5 = ::flixel::FlxG_obj::sound;
+HXDLIN( 199)				_hx_tmp5->play(::backend::Paths_obj::sound(HX_("cancelMenu",39,a4,43,b7),null()),null(),null(),null(),null(),null());
+HXLINE( 200)				::backend::MusicBeatState_obj::switchState( ::states::MainMenuState_obj::__alloc( HX_CTX ,null(),null()));
+HXLINE( 201)				this->quitting = true;
             			}
             		}
-HXLINE( 192)		{
-HXLINE( 192)			int _g = 0;
-HXDLIN( 192)			::Array< ::Dynamic> _g1 = this->grpOptions->members;
-HXDLIN( 192)			while((_g < _g1->length)){
-HXLINE( 192)				 ::objects::Alphabet item = _g1->__get(_g).StaticCast<  ::objects::Alphabet >();
-HXDLIN( 192)				_g = (_g + 1);
-HXLINE( 194)				if (!(item->bold)) {
-HXLINE( 196)					Float lerpVal = ::Math_obj::exp((-(elapsed) * ( (Float)(12) )));
-HXLINE( 197)					if ((item->targetY == 0)) {
-HXLINE( 199)						Float lastX = item->x;
-HXLINE( 200)						{
-HXLINE( 200)							int axes = 1;
-HXDLIN( 200)							bool _hx_tmp6;
-HXDLIN( 200)							if ((axes != 1)) {
-HXLINE( 200)								_hx_tmp6 = (axes == 17);
+HXLINE( 205)		{
+HXLINE( 205)			int _g = 0;
+HXDLIN( 205)			::Array< ::Dynamic> _g1 = this->grpOptions->members;
+HXDLIN( 205)			while((_g < _g1->length)){
+HXLINE( 205)				 ::objects::Alphabet item = _g1->__get(_g).StaticCast<  ::objects::Alphabet >();
+HXDLIN( 205)				_g = (_g + 1);
+HXLINE( 207)				if (!(item->bold)) {
+HXLINE( 209)					Float lerpVal = ::Math_obj::exp((-(elapsed) * ( (Float)(12) )));
+HXLINE( 210)					if ((item->targetY == 0)) {
+HXLINE( 212)						Float lastX = item->x;
+HXLINE( 213)						Float lastY = item->y;
+HXLINE( 214)						{
+HXLINE( 214)							int axes = 1;
+HXDLIN( 214)							bool _hx_tmp6;
+HXDLIN( 214)							if ((axes != 1)) {
+HXLINE( 214)								_hx_tmp6 = (axes == 17);
             							}
             							else {
-HXLINE( 200)								_hx_tmp6 = true;
+HXLINE( 214)								_hx_tmp6 = true;
             							}
-HXDLIN( 200)							if (_hx_tmp6) {
-HXLINE( 200)								int _hx_tmp7 = ::flixel::FlxG_obj::width;
-HXDLIN( 200)								item->set_x(((( (Float)(_hx_tmp7) ) - item->get_width()) / ( (Float)(2) )));
+HXDLIN( 214)							if (_hx_tmp6) {
+HXLINE( 214)								int _hx_tmp7 = ::flixel::FlxG_obj::width;
+HXDLIN( 214)								item->set_x(((( (Float)(_hx_tmp7) ) - item->get_width()) / ( (Float)(2) )));
             							}
-HXDLIN( 200)							bool _hx_tmp8;
-HXDLIN( 200)							if ((axes != 16)) {
-HXLINE( 200)								_hx_tmp8 = (axes == 17);
+HXDLIN( 214)							bool _hx_tmp8;
+HXDLIN( 214)							if ((axes != 16)) {
+HXLINE( 214)								_hx_tmp8 = (axes == 17);
             							}
             							else {
-HXLINE( 200)								_hx_tmp8 = true;
+HXLINE( 214)								_hx_tmp8 = true;
             							}
-HXDLIN( 200)							if (_hx_tmp8) {
-HXLINE( 200)								int _hx_tmp9 = ::flixel::FlxG_obj::height;
-HXDLIN( 200)								item->set_y(((( (Float)(_hx_tmp9) ) - item->get_height()) / ( (Float)(2) )));
+HXDLIN( 214)							if (_hx_tmp8) {
+HXLINE( 214)								int _hx_tmp9 = ::flixel::FlxG_obj::height;
+HXDLIN( 214)								item->set_y(((( (Float)(_hx_tmp9) ) - item->get_height()) / ( (Float)(2) )));
             							}
             						}
-HXLINE( 201)						Float a = (item->x - ( (Float)(70) ));
-HXDLIN( 201)						item->set_x((a + (lerpVal * (lastX - a))));
+HXLINE( 215)						{
+HXLINE( 215)							int axes1 = 16;
+HXDLIN( 215)							bool _hx_tmp10;
+HXDLIN( 215)							if ((axes1 != 1)) {
+HXLINE( 215)								_hx_tmp10 = (axes1 == 17);
+            							}
+            							else {
+HXLINE( 215)								_hx_tmp10 = true;
+            							}
+HXDLIN( 215)							if (_hx_tmp10) {
+HXLINE( 215)								int _hx_tmp11 = ::flixel::FlxG_obj::width;
+HXDLIN( 215)								item->set_x(((( (Float)(_hx_tmp11) ) - item->get_width()) / ( (Float)(2) )));
+            							}
+HXDLIN( 215)							bool _hx_tmp12;
+HXDLIN( 215)							if ((axes1 != 16)) {
+HXLINE( 215)								_hx_tmp12 = (axes1 == 17);
+            							}
+            							else {
+HXLINE( 215)								_hx_tmp12 = true;
+            							}
+HXDLIN( 215)							if (_hx_tmp12) {
+HXLINE( 215)								int _hx_tmp13 = ::flixel::FlxG_obj::height;
+HXDLIN( 215)								item->set_y(((( (Float)(_hx_tmp13) ) - item->get_height()) / ( (Float)(2) )));
+            							}
+            						}
+HXLINE( 216)						item->set_x((lerpVal * lastX));
+HXLINE( 217)						item->set_y((-20 + (lerpVal * (lastY - ( (Float)(-20) )))));
             					}
             					else {
-HXLINE( 205)						Float a1 = (200 + (( (Float)(-40) ) * ::Math_obj::abs(( (Float)(item->targetY) ))));
-HXDLIN( 205)						item->set_x((a1 + (lerpVal * (item->x - a1))));
+HXLINE( 221)						{
+HXLINE( 221)							int axes2 = 16;
+HXDLIN( 221)							bool _hx_tmp14;
+HXDLIN( 221)							if ((axes2 != 1)) {
+HXLINE( 221)								_hx_tmp14 = (axes2 == 17);
+            							}
+            							else {
+HXLINE( 221)								_hx_tmp14 = true;
+            							}
+HXDLIN( 221)							if (_hx_tmp14) {
+HXLINE( 221)								int _hx_tmp15 = ::flixel::FlxG_obj::width;
+HXDLIN( 221)								item->set_x(((( (Float)(_hx_tmp15) ) - item->get_width()) / ( (Float)(2) )));
+            							}
+HXDLIN( 221)							bool _hx_tmp16;
+HXDLIN( 221)							if ((axes2 != 16)) {
+HXLINE( 221)								_hx_tmp16 = (axes2 == 17);
+            							}
+            							else {
+HXLINE( 221)								_hx_tmp16 = true;
+            							}
+HXDLIN( 221)							if (_hx_tmp16) {
+HXLINE( 221)								int _hx_tmp17 = ::flixel::FlxG_obj::height;
+HXDLIN( 221)								item->set_y(((( (Float)(_hx_tmp17) ) - item->get_height()) / ( (Float)(2) )));
+            							}
+            						}
+HXLINE( 222)						item->set_x(( (Float)(0) ));
+HXLINE( 223)						item->set_y((-20 + (lerpVal * ( (Float)(0) ))));
             					}
             				}
             			}
             		}
-HXLINE( 209)		this->super::update(elapsed);
+HXLINE( 227)		this->super::update(elapsed);
             	}
 
 
 void GalleryState_obj::changeSelection(::hx::Null< int >  __o_change){
             		int change = __o_change.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_47ca6c36334795a8_214_changeSelection)
-HXDLIN( 214)		 ::states::GalleryState _gthis = ::hx::ObjectPtr<OBJ_>(this);
-HXLINE( 215)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
-HXDLIN( 215)		_hx_tmp->play(::backend::Paths_obj::sound(HX_("scrollMenu",4c,d4,18,06),null()),((Float)0.4),null(),null(),null(),null());
-HXLINE( 216)		do {
-HXLINE( 217)			 ::states::GalleryState _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 217)			_hx_tmp1->curSelected = (_hx_tmp1->curSelected + change);
-HXLINE( 218)			if ((this->curSelected < 0)) {
-HXLINE( 219)				this->curSelected = (this->creditsStuff->length - 1);
+            	HX_GC_STACKFRAME(&_hx_pos_47ca6c36334795a8_232_changeSelection)
+HXLINE( 233)		 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp = ::flixel::FlxG_obj::sound;
+HXDLIN( 233)		_hx_tmp->play(::backend::Paths_obj::sound(HX_("scrollMenu",4c,d4,18,06),null()),((Float)0.4),null(),null(),null(),null());
+HXLINE( 234)		do {
+HXLINE( 235)			 ::states::GalleryState _hx_tmp1 = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 235)			_hx_tmp1->curSelected = (_hx_tmp1->curSelected + change);
+HXLINE( 236)			if ((this->curSelected < 0)) {
+HXLINE( 237)				this->curSelected = (this->creditsStuff->length - 1);
             			}
-HXLINE( 220)			if ((this->curSelected >= this->creditsStuff->length)) {
-HXLINE( 221)				this->curSelected = 0;
+HXLINE( 238)			if ((this->curSelected >= this->creditsStuff->length)) {
+HXLINE( 239)				this->curSelected = 0;
             			}
             		} while(this->unselectableCheck(this->curSelected));
 ;
-HXLINE( 224)		::String color = this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(4);
-HXDLIN( 224)		 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[\t\n\r]",ac,57,71,6b),HX_("",00,00,00,00));
-HXDLIN( 224)		::String color1 = ::StringTools_obj::trim(hideChars->split(color)->join(HX_("",00,00,00,00)));
-HXDLIN( 224)		if (::StringTools_obj::startsWith(color1,HX_("0x",48,2a,00,00))) {
-HXLINE( 224)			color1 = color1.substring((color1.length - 6),null());
+HXLINE( 242)		::String color = this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(4);
+HXDLIN( 242)		 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[\t\n\r]",ac,57,71,6b),HX_("",00,00,00,00));
+HXDLIN( 242)		::String color1 = ::StringTools_obj::trim(hideChars->split(color)->join(HX_("",00,00,00,00)));
+HXDLIN( 242)		if (::StringTools_obj::startsWith(color1,HX_("0x",48,2a,00,00))) {
+HXLINE( 242)			color1 = color1.substring((color1.length - 6),null());
             		}
-HXDLIN( 224)		 ::Dynamic colorNum = ::flixel::util::_FlxColor::FlxColor_Impl__obj::fromString(color1);
-HXDLIN( 224)		if (::hx::IsNull( colorNum )) {
-HXLINE( 224)			colorNum = ::flixel::util::_FlxColor::FlxColor_Impl__obj::fromString((HX_("#",23,00,00,00) + color1));
+HXDLIN( 242)		 ::Dynamic colorNum = ::flixel::util::_FlxColor::FlxColor_Impl__obj::fromString(color1);
+HXDLIN( 242)		if (::hx::IsNull( colorNum )) {
+HXLINE( 242)			colorNum = ::flixel::util::_FlxColor::FlxColor_Impl__obj::fromString((HX_("#",23,00,00,00) + color1));
             		}
-HXDLIN( 224)		int newColor;
-HXDLIN( 224)		if (::hx::IsNotNull( colorNum )) {
-HXLINE( 224)			newColor = ( (int)(colorNum) );
+HXDLIN( 242)		int newColor;
+HXDLIN( 242)		if (::hx::IsNotNull( colorNum )) {
+HXLINE( 242)			newColor = ( (int)(colorNum) );
             		}
             		else {
-HXLINE( 224)			newColor = -1;
+HXLINE( 242)			newColor = -1;
             		}
-HXLINE( 226)		if ((newColor != this->intendedColor)) {
-            			HX_BEGIN_LOCAL_FUNC_S1(::hx::LocalFunc,_hx_Closure_0, ::states::GalleryState,_gthis) HXARGC(1)
-            			void _hx_run( ::flixel::tweens::FlxTween twn){
-            				HX_GC_STACKFRAME(&_hx_pos_47ca6c36334795a8_233_changeSelection)
-HXLINE( 233)				_gthis->colorTween = null();
-            			}
-            			HX_END_LOCAL_FUNC1((void))
-
-HXLINE( 227)			if (::hx::IsNotNull( this->colorTween )) {
-HXLINE( 228)				this->colorTween->cancel();
-            			}
-HXLINE( 230)			this->intendedColor = newColor;
-HXLINE( 231)			this->colorTween = ::flixel::tweens::FlxTween_obj::color(this->bg,1,this->bg->color,this->intendedColor, ::Dynamic(::hx::Anon_obj::Create(1)
-            				->setFixed(0,HX_("onComplete",f8,d4,7e,5d), ::Dynamic(new _hx_Closure_0(_gthis)))));
-            		}
-HXLINE( 238)		int bullShit = 0;
-HXLINE( 240)		{
-HXLINE( 240)			int _g = 0;
-HXDLIN( 240)			::Array< ::Dynamic> _g1 = this->grpOptions->members;
-HXDLIN( 240)			while((_g < _g1->length)){
-HXLINE( 240)				 ::objects::Alphabet item = _g1->__get(_g).StaticCast<  ::objects::Alphabet >();
-HXDLIN( 240)				_g = (_g + 1);
-HXLINE( 242)				item->targetY = (bullShit - this->curSelected);
-HXLINE( 243)				bullShit = (bullShit + 1);
-HXLINE( 245)				if (!(this->unselectableCheck((bullShit - 1)))) {
-HXLINE( 246)					item->set_alpha(((Float)0.6));
-HXLINE( 247)					if ((item->targetY == 0)) {
-HXLINE( 248)						item->set_alpha(( (Float)(1) ));
+HXLINE( 245)		int bullShit = 0;
+HXLINE( 247)		{
+HXLINE( 247)			int _g = 0;
+HXDLIN( 247)			::Array< ::Dynamic> _g1 = this->grpOptions->members;
+HXDLIN( 247)			while((_g < _g1->length)){
+HXLINE( 247)				 ::objects::Alphabet item = _g1->__get(_g).StaticCast<  ::objects::Alphabet >();
+HXDLIN( 247)				_g = (_g + 1);
+HXLINE( 249)				item->targetY = (bullShit - this->curSelected);
+HXLINE( 250)				bullShit = (bullShit + 1);
+HXLINE( 252)				if (!(this->unselectableCheck((bullShit - 1)))) {
+HXLINE( 253)					item->set_alpha(( (Float)(0) ));
+HXLINE( 254)					if ((item->targetY == 0)) {
+HXLINE( 255)						item->set_alpha(( (Float)(1) ));
             					}
             				}
             			}
             		}
-HXLINE( 253)		this->descText->set_text(this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(2));
-HXLINE( 254)		 ::flixel::text::FlxText _hx_tmp2 = this->descText;
-HXDLIN( 254)		int _hx_tmp3 = ::flixel::FlxG_obj::height;
-HXDLIN( 254)		Float _hx_tmp4 = (( (Float)(_hx_tmp3) ) - this->descText->get_height());
-HXDLIN( 254)		_hx_tmp2->set_y(((_hx_tmp4 + this->offsetThing) - ( (Float)(60) )));
-HXLINE( 256)		if (::hx::IsNotNull( this->moveTween )) {
-HXLINE( 256)			this->moveTween->cancel();
-            		}
-HXLINE( 257)		this->moveTween = ::flixel::tweens::FlxTween_obj::tween(this->descText, ::Dynamic(::hx::Anon_obj::Create(1)
-            			->setFixed(0,HX_("y",79,00,00,00),(this->descText->y + 75))),((Float)0.25), ::Dynamic(::hx::Anon_obj::Create(1)
-            			->setFixed(0,HX_("ease",ee,8b,0c,43),::flixel::tweens::FlxEase_obj::sineOut_dyn())));
-HXLINE( 259)		 ::objects::AttachedSprite _hx_tmp5 = this->descBox;
-HXDLIN( 259)		int _hx_tmp6 = ::Std_obj::_hx_int((this->descText->get_width() + 20));
-HXDLIN( 259)		_hx_tmp5->setGraphicSize(_hx_tmp6,::Std_obj::_hx_int((this->descText->get_height() + 25)));
-HXLINE( 260)		this->descBox->updateHitbox();
+HXLINE( 260)		this->descText->set_text(this->creditsStuff->__get(this->curSelected).StaticCast< ::Array< ::String > >()->__get(2));
+HXLINE( 261)		 ::flixel::text::FlxText _hx_tmp2 = this->descText;
+HXDLIN( 261)		int _hx_tmp3 = ::flixel::FlxG_obj::height;
+HXDLIN( 261)		Float _hx_tmp4 = (( (Float)(_hx_tmp3) ) - this->descText->get_height());
+HXDLIN( 261)		_hx_tmp2->set_y(((_hx_tmp4 + this->offsetThing) + 20));
+HXLINE( 263)		this->descBox->setGraphicSize(0,0);
+HXLINE( 264)		this->descBox->updateHitbox();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(GalleryState_obj,changeSelection,(void))
 
 void GalleryState_obj::pushModCreditsToList(::String folder){
-            	HX_STACKFRAME(&_hx_pos_47ca6c36334795a8_265_pushModCreditsToList)
-HXLINE( 266)		::String creditsFile = null();
-HXLINE( 267)		bool _hx_tmp;
-HXDLIN( 267)		if (::hx::IsNotNull( folder )) {
-HXLINE( 267)			_hx_tmp = (::StringTools_obj::trim(folder).length > 0);
+            	HX_STACKFRAME(&_hx_pos_47ca6c36334795a8_269_pushModCreditsToList)
+HXLINE( 270)		::String creditsFile = null();
+HXLINE( 271)		bool _hx_tmp;
+HXDLIN( 271)		if (::hx::IsNotNull( folder )) {
+HXLINE( 271)			_hx_tmp = (::StringTools_obj::trim(folder).length > 0);
             		}
             		else {
-HXLINE( 267)			_hx_tmp = false;
+HXLINE( 271)			_hx_tmp = false;
             		}
-HXDLIN( 267)		if (_hx_tmp) {
-HXLINE( 267)			::String key = (folder + HX_("/data/credits.txt",a6,fd,31,d1));
-HXDLIN( 267)			if (::hx::IsNull( key )) {
-HXLINE( 267)				key = HX_("",00,00,00,00);
+HXDLIN( 271)		if (_hx_tmp) {
+HXLINE( 271)			::String key = (folder + HX_("/data/credits.txt",a6,fd,31,d1));
+HXDLIN( 271)			if (::hx::IsNull( key )) {
+HXLINE( 271)				key = HX_("",00,00,00,00);
             			}
-HXDLIN( 267)			creditsFile = (HX_("mods/",9e,2f,58,0c) + key);
+HXDLIN( 271)			creditsFile = (HX_("mods/",9e,2f,58,0c) + key);
             		}
             		else {
-HXLINE( 268)			::String key1 = HX_("data/credits.txt",77,6f,6e,c6);
-HXDLIN( 268)			if (::hx::IsNull( key1 )) {
-HXLINE( 268)				key1 = HX_("",00,00,00,00);
+HXLINE( 272)			::String key1 = HX_("data/credits.txt",77,6f,6e,c6);
+HXDLIN( 272)			if (::hx::IsNull( key1 )) {
+HXLINE( 272)				key1 = HX_("",00,00,00,00);
             			}
-HXDLIN( 268)			creditsFile = (HX_("mods/",9e,2f,58,0c) + key1);
+HXDLIN( 272)			creditsFile = (HX_("mods/",9e,2f,58,0c) + key1);
             		}
-HXLINE( 270)		if (::sys::FileSystem_obj::exists(creditsFile)) {
-HXLINE( 272)			::Array< ::String > firstarray = ::sys::io::File_obj::getContent(creditsFile).split(HX_("\n",0a,00,00,00));
-HXLINE( 273)			{
-HXLINE( 273)				int _g = 0;
-HXDLIN( 273)				while((_g < firstarray->length)){
-HXLINE( 273)					::String i = firstarray->__get(_g);
-HXDLIN( 273)					_g = (_g + 1);
-HXLINE( 275)					::Array< ::String > arr = ::StringTools_obj::replace(i,HX_("\\n",92,50,00,00),HX_("\n",0a,00,00,00)).split(HX_("::",c0,32,00,00));
-HXLINE( 276)					if ((arr->length >= 5)) {
-HXLINE( 276)						arr->push(folder);
+HXLINE( 274)		if (::sys::FileSystem_obj::exists(creditsFile)) {
+HXLINE( 276)			::Array< ::String > firstarray = ::sys::io::File_obj::getContent(creditsFile).split(HX_("\n",0a,00,00,00));
+HXLINE( 277)			{
+HXLINE( 277)				int _g = 0;
+HXDLIN( 277)				while((_g < firstarray->length)){
+HXLINE( 277)					::String i = firstarray->__get(_g);
+HXDLIN( 277)					_g = (_g + 1);
+HXLINE( 279)					::Array< ::String > arr = ::StringTools_obj::replace(i,HX_("\\n",92,50,00,00),HX_("\n",0a,00,00,00)).split(HX_("::",c0,32,00,00));
+HXLINE( 280)					if ((arr->length >= 5)) {
+HXLINE( 280)						arr->push(folder);
             					}
-HXLINE( 277)					this->creditsStuff->push(arr);
+HXLINE( 281)					this->creditsStuff->push(arr);
             				}
             			}
-HXLINE( 279)			this->creditsStuff->push(::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_40,1));
+HXLINE( 283)			this->creditsStuff->push(::Array_obj< ::String >::fromData( _hx_array_data_f994f2eb_18,1));
             		}
             	}
 
@@ -806,8 +813,8 @@ HXLINE( 279)			this->creditsStuff->push(::Array_obj< ::String >::fromData( _hx_a
 HX_DEFINE_DYNAMIC_FUNC1(GalleryState_obj,pushModCreditsToList,(void))
 
 bool GalleryState_obj::unselectableCheck(int num){
-            	HX_STACKFRAME(&_hx_pos_47ca6c36334795a8_285_unselectableCheck)
-HXDLIN( 285)		return (this->creditsStuff->__get(num).StaticCast< ::Array< ::String > >()->length <= 1);
+            	HX_STACKFRAME(&_hx_pos_47ca6c36334795a8_289_unselectableCheck)
+HXDLIN( 289)		return (this->creditsStuff->__get(num).StaticCast< ::Array< ::String > >()->length <= 1);
             	}
 
 

@@ -35,7 +35,7 @@ class ApplicationMain
 		ManifestResources.init(config);
 		#end
 
-		app.meta["build"] = "5";
+		app.meta["build"] = "7";
 		app.meta["company"] = "ShadowMario";
 		app.meta["file"] = "Random";
 		app.meta["name"] = "Randomness Funkin";

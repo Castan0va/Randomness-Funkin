@@ -2498,7 +2498,6 @@
   </file>
   <file name="src/states/GalleryState.cpp" >
    <depend name="include/EReg.h"/>
-   <depend name="include/Std.h"/>
    <depend name="include/StringTools.h"/>
    <depend name="include/backend/ClientPrefs.h"/>
    <depend name="include/backend/Controls.h"/>
@@ -2534,7 +2533,6 @@
    <depend name="include/flixel/text/FlxTextBorderStyle.h"/>
    <depend name="include/flixel/tweens/FlxEase.h"/>
    <depend name="include/flixel/tweens/FlxTween.h"/>
-   <depend name="include/flixel/tweens/misc/ColorTween.h"/>
    <depend name="include/flixel/tweens/misc/VarTween.h"/>
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
    <depend name="include/flixel/util/IFlxPooled.h"/>

@@ -78,6 +78,7 @@ export/release/windows/bin/assets/shared/images/bg1.png
 export/release/windows/bin/assets/shared/images/bg2.png
 export/release/windows/bin/assets/shared/images/bg3.png
 export/release/windows/bin/assets/shared/images/bg4.png
+export/release/windows/bin/assets/shared/images/bgcredits.png
 export/release/windows/bin/assets/shared/images/bgfreeplay.png
 export/release/windows/bin/assets/shared/images/bggallery.png
 export/release/windows/bin/assets/shared/images/borderfreeplay.png
@@ -160,6 +161,11 @@ export/release/windows/bin/assets/shared/images/editors/silhouetteDad.png
 export/release/windows/bin/assets/shared/images/eventArrow.png
 export/release/windows/bin/assets/shared/images/freeplaychars/missing-char.png
 export/release/windows/bin/assets/shared/images/funkay.png
+export/release/windows/bin/assets/shared/images/gallery/coolPicture.png
+export/release/windows/bin/assets/shared/images/gallery/equallyCoolandUncoolPicture.png
+export/release/windows/bin/assets/shared/images/gallery/missing_picture.png
+export/release/windows/bin/assets/shared/images/gallery/uncoolPicture.png
+export/release/windows/bin/assets/shared/images/galleryborder.png
 export/release/windows/bin/assets/shared/images/gfDanceTitle.json
 export/release/windows/bin/assets/shared/images/gfDanceTitle.png
 export/release/windows/bin/assets/shared/images/gfDanceTitle.xml
@@ -173,6 +179,7 @@ export/release/windows/bin/assets/shared/images/icons/icon-face.png
 export/release/windows/bin/assets/shared/images/icons/icon-rbf.png
 export/release/windows/bin/assets/shared/images/icons/icon-spooky.png
 export/release/windows/bin/assets/shared/images/images-go-here.txt
+export/release/windows/bin/assets/shared/images/logallery.png
 export/release/windows/bin/assets/shared/images/logo.png
 export/release/windows/bin/assets/shared/images/logoBumpin.png
 export/release/windows/bin/assets/shared/images/logoBumpin.xml
@@ -327,6 +334,7 @@ export/release/windows/bin/assets/shared/images/storymenu/week7.png
 export/release/windows/bin/assets/shared/images/timeBar.png
 export/release/windows/bin/assets/shared/images/titleEnter.png
 export/release/windows/bin/assets/shared/images/titleEnter.xml
+export/release/windows/bin/assets/shared/images/underlaycredits.png
 export/release/windows/bin/assets/shared/images/underlayfreeplay.png
 export/release/windows/bin/assets/shared/images/underlaything2.png
 export/release/windows/bin/assets/shared/images/underlaythingy.png
